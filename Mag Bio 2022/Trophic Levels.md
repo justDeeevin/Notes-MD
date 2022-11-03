@@ -1,1 +1,28 @@
-
+# Trophic levels - November 3, 2022
+## Key terms
+- Niche
+    - Unique key role that a species plays in an ecosystem. No two species occupy the same niche
+- Autotroph
+    - Makes its own food (I.E. photosynthesis)
+- Heterotroph
+    - Eats other organisms
+- Omnivore
+    - Eats all kinds of organisms
+- Carnivore
+    - Eats animals
+- Herbivore
+    - Eats plants
+- Detritavore
+    - Eats dead biomass - think mushrooms and decomposition
+## Notes 
+- Troph - refers to feeding or energy
+1. primary heterotrophs
+2. Secondary heterotrophs
+3. Tertiary heterotrophs
+- This continues...
+- Bottom - autotrophs
+### Transcendentalist walk
+- The only animals I saw were small bugs. There were only these little white dudes hovering around and I couldn't identify what kind of bug they were. There was also a single little crawly bug that was able to walk on the water in the stream.
+- There were a **lot** of trees. One thing that was interesting to observe was the individual leaves falling.
+- There was a noticeable gradient in leaf color from green to yellow to orange from the floor to the top of the trees.
+- I saw no real examples of competition or interaction between organisms.

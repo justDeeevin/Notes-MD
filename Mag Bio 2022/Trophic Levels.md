@@ -26,3 +26,4 @@
 - There were a **lot** of trees. One thing that was interesting to observe was the individual leaves falling.
 - There was a noticeable gradient in leaf color from green to yellow to orange from the floor to the top of the trees.
 - I saw no real examples of competition or interaction between organisms.
+- There was a thin film on the surface of the still water. At first I thought it was a lighting effect, but after someone near me began stirring the water around a bit (I was going to focus on the ripples), I noticed the film dissipate.

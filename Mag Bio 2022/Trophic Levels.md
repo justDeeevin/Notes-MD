@@ -40,7 +40,7 @@
 - Predators are needed to keep herbivore numbers at or below carrying capacity
 - This is different than "bottom-up" ideas, which say the number of herbivores is determined by the amount of plant biomass
 - **Both Green World and Bottom-Up hypotheses are overly simplistic views of ecosystems**
-### <a name="Trophic-Cascades"/> Trophic Cascades
+### <a name="trophic-cascades"/> Trophic Cascades
 - A chain of relationships betwen species
 - Example
     - Grass produces energy for ecosystem

@@ -32,7 +32,7 @@
 ## Notes
 - Keystone species, as the name suggests, are species that are depended upon by a large number of other species.
 - Keystone species can be on any trophic level.
-- When keystone species of an ecosystem are diminished or removed, the effect is a [_trophic cascade_](#trophic-cascades)
+- When keystone species of an ecosystem are diminished or removed, the effect is a [_trophic cascade_](###trophic-cascades)
 
 # Predators and prey - November 9, 2022
 ## Notes
@@ -40,7 +40,7 @@
 - Predators are needed to keep herbivore numbers at or below carrying capacity
 - This is different than "bottom-up" ideas, which say the number of herbivores is determined by the amount of plant biomass
 - **Both Green World and Bottom-Up hypotheses are overly simplistic views of ecosystems**
-# Trophic Cascades
+### Trophic Cascades
 - Chain reaction of relationships
     - When I remove a species, how are other species affected?
     - Which species are dependent on which other species?

@@ -32,7 +32,7 @@
 ## Notes
 - Keystone species, as the name suggests, are species that are depended upon by a large number of other species.
 - Keystone species can be on any trophic level.
-- When keystone species of an ecosystem are diminished or removed, the effect is a [_trophic cascade_](#trophic-cascades)
+- When keystone species of an ecosystem are diminished or removed, the effect is a [_trophic cascade_](###trophic-cascades)
 
 # Predators and prey - November 9, 2022
 ## Notes

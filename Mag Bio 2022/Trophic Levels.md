@@ -40,7 +40,7 @@
 - Predators are needed to keep herbivore numbers at or below carrying capacity
 - This is different than "bottom-up" ideas, which say the number of herbivores is determined by the amount of plant biomass
 - **Both Green World and Bottom-Up hypotheses are overly simplistic views of ecosystems**
-### <a name="trophic-cascades"/> Trophic Cascades
+### Trophic Cascades
 - Chain reaction of relationships
     - When I remove a species, how are other species affected?
     - Which species are dependent on which other species?
@@ -51,3 +51,5 @@
     - If the blue crabs were removed, the snail popultion would skyrocket and the grass population would be decimated
     - If the grass were removed, the snails wouldn't have anything to feed on and the crabs would likely struggle to survive
     - Without snails, the grass would thrive and the crabs would likely struggle to survive without snails to feed on
+    # Ecosystem Resiliency - November 10, 2022
+    

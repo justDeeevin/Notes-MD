@@ -41,8 +41,13 @@
 - This is different than "bottom-up" ideas, which say the number of herbivores is determined by the amount of plant biomass
 - **Both Green World and Bottom-Up hypotheses are overly simplistic views of ecosystems**
 ### <a name="trophic-cascades"/> Trophic Cascades
-- A chain of relationships betwen species
+- Chain reaction of relationships
+    - When I remove a species, how are other species affected?
+    - Which species are dependent on which other species?
 - Example
-    - Grass produces energy for ecosystem
-    - Snails eat grass; Too many snails = very little grass
-    - Crabs eat snails, keeping everything in check
+    - Snails eat grass in the salt marsh
+    - Snails eat the grass faster than it can grow when not kept in check
+    - Blue crabs eat the snails
+    - If the blue crabs were removed, the snail popultion would skyrocket and the grass population would be decimated
+    - If the grass were removed, the snails wouldn't have anything to feed on and the crabs would likely struggle to survive
+    - Without snails, the grass would thrive and the crabs would likely struggle to survive without snails to feed on

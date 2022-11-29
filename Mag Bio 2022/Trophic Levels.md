@@ -51,5 +51,8 @@
     - If the blue crabs were removed, the snail popultion would skyrocket and the grass population would be decimated
     - If the grass were removed, the snails wouldn't have anything to feed on and the crabs would likely struggle to survive
     - Without snails, the grass would thrive and the crabs would likely struggle to survive without snails to feed on
-    # Ecosystem Resiliency - November 10, 2022
-    
+# Ecosystem Resiliency - November 10, 2022
+## Notes
+- For an ecosystem to effectively heal following a disaster, it has to be healthy
+- High biodiversity = healthy ecosystem
+- Biodiversity and survival of keystone species determines whether or not an ecosystem recovers

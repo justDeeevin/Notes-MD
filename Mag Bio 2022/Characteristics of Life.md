@@ -49,7 +49,7 @@ ATP (adenosine triphosphate) is also chemical energy. It is more efficient than 
 
 ATP: $C_{10}H_{16}N_5O_{13}P_3$  
 ADP: $C_{10}H_{15}N_5O_{10}P_2$  
-Phosphate: ${PO_4}^{3+}$
+Phosphate: $[PO_4]^{3+}$
 
 ### Elements of Life
 While the periodic table shows over 100 elements, only a handful of these are critically important in living organisms, and most are only ever seen in artificial conditions.

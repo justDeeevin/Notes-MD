@@ -1,5 +1,6 @@
 # Table of Contents
 - [Characteristics of Life - November 29, 2022](#characteristics-of-life---november-29-2022)
+- [Chemistry of life - December 1, 2022](#chemistry-of-life---december-1-2022)
 # Characteristics of Life - November 29, 2022
 - [Notes](#notes)
     - [Characteristics of Life](#characteristics-of-life)

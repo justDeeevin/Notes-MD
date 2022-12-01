@@ -1,4 +1,12 @@
+# Table of Contents
+- [Trophic levels - November 3, 2022](#trophic-levels---november-3-2022)
+- [Keystone Species and Trophic Cascades - November 4, 2022](#keystone-species-and-trophic-cascades---november-4-2022)
+- [Predators and prey - November 9, 2022](#predators-and-prey---november-9-2022)
+- [Ecosystem Resiliency - November 10, 2022](#ecosystem-resiliency---november-10-2022)
 # Trophic levels - November 3, 2022
+- [Key Terms](#key-terms)
+- [Notes](#notes)
+    - [Trancendentalist walk](#transcendentalist-walk)
 ## Key terms
 - Niche
     - Unique key role that a species plays in an ecosystem. No two species occupy the same niche
@@ -29,14 +37,18 @@
 - I saw no real examples of competition or interaction between organisms.
 - There was a thin film on the surface of the still water. At first I thought it was a lighting effect, but after someone near me began stirring the water around a bit (I was going to focus on the ripples), I noticed the film dissipate.
 # Keystone Species and Trophic Cascades - November 4, 2022
+- [Notes](#notes-1)
 ## Notes
 - Keystone species, as the name suggests, are species that are depended upon by a large number of other species.
 - Keystone species can be on any trophic level.
 - When keystone species of an ecosystem are diminished or removed, the effect is a [_trophic cascade_](###trophic-cascades)
 
 # Predators and prey - November 9, 2022
+- [Notes](#notes-2)
+    - [The Green World Hypothesis](#the-green-world-hypothesis)
+    - [Trophic Cascades](#trophic-cascades)
 ## Notes
-### The green world Hypothesis
+### The Green World Hypothesis
 - Predators are needed to keep herbivore numbers at or below carrying capacity
 - This is different than "bottom-up" ideas, which say the number of herbivores is determined by the amount of plant biomass
 - **Both Green World and Bottom-Up hypotheses are overly simplistic views of ecosystems**
@@ -52,6 +64,7 @@
     - If the grass were removed, the snails wouldn't have anything to feed on and the crabs would likely struggle to survive
     - Without snails, the grass would thrive and the crabs would likely struggle to survive without snails to feed on
 # Ecosystem Resiliency - November 10, 2022
+- [Notes](#notes-3)
 ## Notes
 - For an ecosystem to effectively heal following a disaster, it has to be healthy
 - High biodiversity = healthy ecosystem

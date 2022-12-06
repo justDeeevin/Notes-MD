@@ -23,6 +23,9 @@
     - [Obtaining and Using Energy](#obtaining-and-using-energy)
     - [Elements of Life](#elements-of-life)
     - [Organic and Inorganic Molecules](#organic-and-inorganic-molecules)
+    - [Building Upwards](#building-upwards)
+    - [Biologiall Important Polymers](#boilogically-important-polymers)
+    - [Biologically Important Monomers](#biologically-important-monomers)
 ## Notes
 ### Types of energy
 - Potential
@@ -94,3 +97,10 @@ Each has unique monomers and specific characteristics
 - Amino acid; Protein
 - Nucleotide; Nucleic acid
 - Monosacharide; Carbohydrate
+
+# Anabolism and Catabolism - December 6, 2022
+- [Notes](#notes-2)
+    - [Anabolism and Catabolism](#anabolism-and-catabolism)
+## Notes
+### Anabolism and Catabolism
+Catabolism is the process of breaking things down (i.e. digestion). Anabolism is the opposite, putting things together. Hydrolysis is a type of catabolism where a water molecule reacts with a biological polymer to split it into its monomic components. Dehydration synthesis is the anabolic counterpart to hydrolysis.

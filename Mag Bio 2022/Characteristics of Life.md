@@ -95,6 +95,7 @@ Each has unique monomers and specific characteristics
 ### Biologically Important Monomers
 - Glycerol + fatty acids OR cholesterol backbone; Lipids
 - Amino acid; Protein
+    - Amino - Amine group ($NH_2R^1$, $NHR^1R^2$, $NR^1R^2R^3$). MUST HAVE NITROGEN
 - Nucleotide; Nucleic acid
 - Monosacharide; Carbohydrate
 

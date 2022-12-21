@@ -1,6 +1,7 @@
 # Table of Contents
 - [Characteristics of Life - November 29, 2022](#characteristics-of-life---november-29-2022)
 - [Chemistry of life - December 1, 2022](#chemistry-of-life---december-1-2022)
+- [Anabolism and Catabolism - December 6, 2022](#anabolism-and-catabolism---december-6-2022)
 # Characteristics of Life - November 29, 2022
 - [Notes](#notes)
     - [Characteristics of Life](#characteristics-of-life)
@@ -36,8 +37,7 @@
         - Fusion
         - Fission
     - Gravitational
-- Kinetic
-    - Energy in motion
+- Kinetic - Energy in motion
     - Radiant (electromagnetic spectrum)
     - Thermal
     - Motion
@@ -82,22 +82,49 @@ These elements are critical for many of the processes that occur in an organism'
 Organic molecules **must** have carbon. They generally have carbon-hydrogen or carbon-carbon bonds. Chemically, "organic" has nothing to do with "healthy" or "good for you".
 
 ### Building Upwards
-***Monomers*** (one unit) are molecules that can be linked together to form larger ***polymers*** (many units)
+Small molecules can be joined together to form larger structures caled **macromolecules**. ***Monomers*** (one unit) are molecules that can be linked together to form larger ***polymers*** (many units)
 
 ### Boilogically important polymers
 There are four categores of biologically important polymers:
 - Carbohydrates
+    - Broken down into glucose
 - Lipids
+    - Has many jobs, shares a few with proteins
+    - Produces hormones
+    - Help digest fat
 - Proteins
+    - Do most of the work, i.e. transport, structural support, reaction catalyzation
 - Nucleic Acids
+    - ***DNA and RNA!!!***
+
 Each has unique monomers and specific characteristics
 
 ### Biologically Important Monomers
 - Glycerol + fatty acids OR cholesterol backbone; Lipids
+    - $C$
+    - $H$
+    - $O$
+    - Sometimes
+        - $P$
+        - $N$
+        - $S$
+        - Other
 - Amino acid; Protein
+    - $C$
+    - $H$
+    - $O$
+    - $N$
     - Amino - Amine group ($NH_2R^1$, $NHR^1R^2$, $NR^1R^2R^3$). MUST HAVE NITROGEN
 - Nucleotide; Nucleic acid
+    - $N$
+    - $O$
+    - $C$
+    - $P$
+    - $H$
 - Monosacharide; Carbohydrate
+    - $C$
+    - $H$
+    - $O$
 
 # Anabolism and Catabolism - December 6, 2022
 - [Notes](#notes-2)

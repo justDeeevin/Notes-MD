@@ -19,11 +19,13 @@
             - [x] Button
             - [x] Styling
             - [ ] Ripple
-    - [ ] Full item list
-        - [ ] Image information
-        - [ ] Image embed
-        - Pages?
-    - [ ] Search algorithm
+    - [x] Full item list
+        - [x] Image information
+        - [x] Image embed
+        - ~~Pages?~~
+    - [x] Search algorithm
     - [ ] Different filter categories
+        - [ ] Date
 
 # Done
+- [x] Tidy clothes

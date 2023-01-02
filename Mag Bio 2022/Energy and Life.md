@@ -15,6 +15,8 @@ $6CO_2 + 6H_2O + light \rightarrow C_6H_{12}O_6 + 6CO_2$
 - Light reactions in the thylakoid membrane produce $O_2$, ATP, and NADPH
 - The Clavin Cycle in the stroma uses $CO_2$, ATP, and NADPH to make carbohydrates such as sugars
 
+It is important to note that ***the products of cellular respiration are the reactants of photosynthesis*** (sans light), and ***the products of photosynthesis are the reactants of cellular respiration***.
+
 # After Glycolysis - December 20, 2022
 - [Types of Respiration](#types-of-respiration)
     - [Anaerobic Respiration](#anaerobic-respiration)

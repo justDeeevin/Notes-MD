@@ -3,7 +3,7 @@
 ### Personal
 - [ ] Learn C++
 - [ ] Electrical components cleanup
-    - [ ] Put them where?
+    - [ ] Find somewhere to put em
     - [ ] Move em
 ### Extracurricular Responsibilities
 - [ ] Lifesteal MC mod/plugin

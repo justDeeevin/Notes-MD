@@ -2,7 +2,7 @@
 - [Cellular Respiration](#cellular-respiration)
 - [Photosynthesis - December 19, 2022](#photosynthesis---december-19-2022)
 - [After Glycolysis - December 20, 2022](#after-glycolysis---december-20-2022)
-- [Carbon Cycle - January 3, 2022](#carbon-cycle---january-3-2022)
+- [Nutrient Cycles - January 3, 2022](#nutrient-cycles---january-3-2022)
 # Cellular Respiration
 Cellular respiration takes place in the mitochondrion. 1 Glucose and 6 $O_2$ yield 6 water, 6 $CO_2$, and 36-38 ATP  
 $C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O + ATP$

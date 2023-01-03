@@ -10,7 +10,7 @@ $C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O + ATP$
 - Oxidative phosphorylation also takes place in the mitochondrion
 
 # Photosynthesis - December 19, 2022
-Photosynthesis takes place in the many chloroplasts in a plant cell. 6 $CO_2$, 6 water, and light yield 1 glucose and 6 $CO_2$  
+Photosynthesis takes place in the many chloroplasts in a plant cell. 6 $CO_2$, 6 water, and light yield 1 glucose and 6 $O_2$  
 $6CO_2 + 6H_2O + light \rightarrow C_6H_{12}O_6 + 6CO_2$
 - Light reactions in the thylakoid membrane produce $O_2$, ATP, and NADPH
 - The Clavin Cycle in the stroma uses $CO_2$, ATP, and NADPH to make carbohydrates such as sugars

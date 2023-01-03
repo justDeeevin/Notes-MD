@@ -26,11 +26,11 @@
     - [x] Bio plant in a bottle
         - [x] Finish
         - [x] Submit
-    - [ ] Bio no mitochondira wanted here
-        - [ ] Read presentation from missed day
-        - [ ] Take notes on presentation
-        - [ ] Finish
-        - [ ] Submit
+    - [x] Bio no mitochondria wanted here
+        - [x] Read presentation from missed day
+        - [x] Take notes on presentation
+        - [x] Finish
+        - [x] Submit
     - [ ] Bio modeling cellular respiration
         - [ ] Get data from phoenix
         - [ ] Finish

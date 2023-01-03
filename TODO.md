@@ -1,52 +1,36 @@
 # Todo
-### School
-### Personal
+## School
+### Upcoming
+### Due
+### Late
+## Personal
 - [ ] Learn C++
 - [ ] Electrical components cleanup
     - [ ] Find somewhere to put em
     - [ ] Move em
-### Extracurricular Responsibilities
+## Extracurricular Responsibilities
 - [ ] Lifesteal MC mod/plugin
 - [ ] RC Plane research
 - [ ] Google Docs in VSCode
     - [ ] `.gdoc` filetype?
 
 # Doing
-### School
+## School
+### Upcoming
+### Due
+### Late
+- [ ] Gov. branches of power game
+    - [ ] Ask teacher about making up
+### Other
 - [ ] Book drive SSL sheet
-- [ ] Late work
-    - [x] Aero research
-        - [x] Finish
-        - [x] Submit
-    - [ ] Gov. unit 2 test study guide
-        - [x] Finish
-        - [ ] Submit
-    - [ ] Gov. branches of power game
-        - [ ] Ask teacher about making up
-    - [x] Bio plant in a bottle
-        - [x] Finish
-        - [x] Submit
-    - [x] Bio no mitochondria wanted here
-        - [x] Read presentation from missed day
-        - [x] Take notes on presentation
-        - [x] Finish
-        - [x] Submit
-    - [ ] ~~Bio modeling cellular respiration~~
-        - [ ] ~~Get data from phoenix~~
-        - [ ] ~~Finish~~
-        - [ ] ~~Submit~~
-        - Unable to be submitted late - past deadline
-    - [x] English analysis final draft
-        - [x] Finish
-        - [x] Submit
-### Personal
+## Personal
 - [ ] DALL-E search page
     - [ ] Page design
         - [x] Search bar
         - [ ] Search button
             - [x] Button
             - [x] Styling
-            - [ ] Ripple
+            - [x] Ripple
     - [x] Full item list
         - [x] Image information
         - [x] Image embed
@@ -54,10 +38,32 @@
     - [x] Search algorithm
     - [ ] Different filter categories
         - [ ] Date
-### Extracurricular Responsibilities
+## Extracurricular Responsibilities
 
 # Done
-### School
-### Personal
+## School
+- [x] Gov. unit 2 test study guide
+    - [x] Finish
+    - [x] Submit
+- [ ] ~~Bio modeling cellular respiration~~
+    - [ ] ~~Get data from phoenix~~
+    - [ ] ~~Finish~~
+    - [ ] ~~Submit~~
+    - Unable to be submitted late - past deadline
+- [x] Aero research
+    - [x] Finish
+    - [x] Submit
+- [x] Bio plant in a bottle
+    - [x] Finish
+    - [x] Submit
+- [x] Bio no mitochondria wanted here
+    - [x] Read presentation from missed day
+    - [x] Take notes on presentation
+    - [x] Finish
+    - [x] Submit
+- [x] English analysis final draft
+    - [x] Finish
+    - [x] Submit
+## Personal
 - [x] Tidy clothes
-### Extracurricular Responsibilities
+## Extracurricular Responsibilities

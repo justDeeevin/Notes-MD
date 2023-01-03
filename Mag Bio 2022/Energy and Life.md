@@ -51,4 +51,5 @@ The law of conservation of mass must be followed and, as such, in order to suppo
 - Biosphere - life
 - Hydrosphere - water
 - Lithosphere - rock/stone
+
 Left to themselves, the nutrient cycles are entirely balanced, in an equilibrium. However, with human meddling (grrrr...), they can be disrupted.

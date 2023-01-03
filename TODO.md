@@ -23,9 +23,9 @@
         - [ ] Submit
     - [ ] Gov. branches of power game
         - [ ] Ask teacher about making up
-    - [ ] Bio plant in a bottle
-        - [ ] Finish
-        - [ ] Submit
+    - [x] Bio plant in a bottle
+        - [x] Finish
+        - [x] Submit
     - [ ] Bio no mitochondira wanted here
         - [ ] Read presentation from missed day
         - [ ] Take notes on presentation

@@ -3,6 +3,7 @@
 - [Photosynthesis - December 19, 2022](#photosynthesis---december-19-2022)
 - [After Glycolysis - December 20, 2022](#after-glycolysis---december-20-2022)
 - [Nutrient Cycles - January 3, 2022](#nutrient-cycles---january-3-2022)
+
 # Cellular Respiration
 Cellular respiration takes place in the mitochondrion. 1 Glucose and 6 $O_2$ yield 6 water, 6 $CO_2$, and 36-38 ATP  
 $C_6H_{12}O_6 + 6O_2 \rightarrow 6CO_2 + 6H_2O + ATP$
@@ -25,26 +26,32 @@ It is important to note that ***the products of cellular respiration are the rea
 - [Fermentation](#fermentation)
     - [Lactic Acid Fermentation](#lactic-acid-fermentation)
     - [Alcohol Fermentation](#alcohol-fermentation)
+
 ## Types of Respiration
 ### Anaerobic Respiration
 - Pyruvate is converted into other compounds
     - Specific compounds depend on the organism
 - No more ATP is generated
 - Also called fermentation
+
 ### Aerobic Respiration
 - Pyruvate is taken to the mitochondrion
 - Oxygen is used
 - ~34-35 additional ATP are generated in the mitochondrial processes
 - $H_2O$ and $CO_2$ are released
+
 ## Fermentation
 The products of anaerobic respiration vary and contribute to the name of the type of fermentation
+
 ### Lactic Acid Fermentation
 - Our muscles cells convert the pyruvate to lactic acid and $CO_2$
 - The lactic acid is what causes muscle soreness
 - Many foods are made using lactic acid fermentation by various types of bacteria
+
 ### Alcohol Fermentation
 - Some yeast and bacterial cells convert pyruvate to ethyl alcohol and $CO_2$
 - This is how bread rises and some alcoholic beverages are made
+
 # Nutrient Cycles - January 3, 2022
 The law of conservation of mass must be followed and, as such, in order to support the ecosystem, the many nutrients necessary for life are always moving around in what are called cycles (e.g. the water cycle). The carbon cycle (and other nutrient cycles) aren't *really* cycles, but are closer to webs. Elements move between the different reservoirs:
 - Atmosphere - air

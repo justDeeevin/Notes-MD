@@ -20,7 +20,9 @@
 ### Due
 ### Late
 - [ ] Gov. branches of power game
-    - [ ] Ask teacher about making up
+    - [x] Ask teacher about making up
+    - [ ] Finish
+    - [ ] Submit
 ### Other
 - [ ] Book drive SSL sheet
 ## Personal

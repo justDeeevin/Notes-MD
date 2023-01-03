@@ -31,10 +31,11 @@
         - [x] Take notes on presentation
         - [x] Finish
         - [x] Submit
-    - [ ] Bio modeling cellular respiration
-        - [ ] Get data from phoenix
-        - [ ] Finish
-        - [ ] Submit
+    - [ ] ~~Bio modeling cellular respiration~~
+        - [ ] ~~Get data from phoenix~~
+        - [ ] ~~Finish~~
+        - [ ] ~~Submit~~
+        - Unable to be submitted late - past deadline
     - [x] English analysis final draft
         - [x] Finish
         - [x] Submit

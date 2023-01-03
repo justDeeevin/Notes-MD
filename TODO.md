@@ -15,9 +15,9 @@
 ### School
 - [ ] Book drive SSL sheet
 - [ ] Late work
-    - [ ] Aero research
-        - [ ] Finish
-        - [ ] Submit
+    - [x] Aero research
+        - [x] Finish
+        - [x] Submit
     - [ ] Gov. unit 2 test study guide
         - [x] Finish
         - [ ] Submit

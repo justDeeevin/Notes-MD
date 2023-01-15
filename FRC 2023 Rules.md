@@ -66,6 +66,13 @@
     - Penalty: [foul](#foul) per additional game piece
     - Yellow card if egregious
 - A robot may not move a scored game piece from an opponent's node
+# Interesting notes
+Points are on a node basis rather than a piece basis. A full node = points, rather than a piece on the grid = points. So, if a piece is removed from a node, points are lost. If the same piece is placed on a node with a different point value, the different point value is gained. For example:  
+- In teleop, a cube is placed in the bottom row, then moved to the top row. Only 5 points are gained.
+- In teleop, a cube is placed in the top row, then moved to the bottom row. Only 2 points are gained.
+
+If a piece is placed on a node during auto, for the rest of the match, it will provide auto points rather than teleop. For example:
+- In auto, a cube is placed on the bottom row. Then, in teleop, it is moved to the top row. However, following this, a cone is placed in the node that was once filled by the aforementioned cube. 5 points are gained for the cube in the top row, and 3 points are gained for the cone in the node which was filled during auto.
 # Defitions
 ### CONTROL
 The state of a game piece if any of the following are true:

@@ -49,13 +49,13 @@
     - End of teleop
         - Docked = 6 pts
         - Docked + engaged = 10 pts
+- If at least 26 points were earned from being docked and/or engaged on the charging station, 1 ranking point is given (activation bonus)
 
 |                         | No teleop dock/engage | 1 teleop dock | 2 teleop docks | 3 teleop docks | 1 teleop engage | 2 teleop engage | 3 teleop engage |
 |-------------------------|-----------------------|---------------|----------------|----------------|-----------------|-----------------|-----------------|
 | **Auto engage**         | 12                    | 18            | 24             | ***30***         | 22              | ***32***          | ***42***          |
 | **Auto dock**           | 8                     | 14            | 20             | ***26***         | 18              | ***28***          | ***38***          |
 | **No auto dock/engage** | 0                     | 6             | 12             | 18             | 10              | 20              | ***30***          |
-- If at least 26 points were earned from being docked and/or engaged on the charging station, 1 ranking point is given (activation bonus)
 # Rules
 - No extensions when in the opponent's loading or community zone
     - Penalty: [foul](#foul)

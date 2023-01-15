@@ -1,5 +1,5 @@
 # Gameplay
-### The grid
+### The Grid
 - 3x9 grid of "nodes"
 - Pieces on nodes grant points
     - Bottom row
@@ -21,7 +21,7 @@
 - Divided into 3 3x3 grids
     - The middle one is the "coopertition grid"
     - 3 pieces in coopertition grid decreases sustainability bonus threshold by 1 (from 5 links to 4)
-### The substations
+### The Substations
 - Substations are used to deliver pieces from outside of the arena to the robots
 - 2 kinds of substation
     - Single substation
@@ -32,7 +32,7 @@
         - Place piece onto tray, slide tray sideways so robot can access it
         - Also the option to drop a piece onto the floor
 - Team 5115 will be prioritizing the double substation
-### The charging station
+### The Charging Station
 - Balance board thing
 - Almost entirely blocks access to the community zone in which the grid lies
 - There are small spaces on either side of it, but it's a tight turn to make (still doable)
@@ -66,7 +66,17 @@
     - Penalty: [foul](#foul) per additional game piece
     - Yellow card if egregious
 - A robot may not move a scored game piece from an opponent's node
-# Interesting notes
+# Driver Station Status LED Strip
+At the driver station, there is an RGB LED strip that indicates the status of the game.
+
+![First image describing the different status codes on the LED Strip](https://raw.githubusercontent.com/ThePyroTF2/Notes-MD/main/FRC%20Rules/2023/Images/Driver%20Station%20Status%20LED%20Strip%20Info%20IMG%20Pt.%201.png)
+
+![Second image describing the different status codes on the LED Strip](https://raw.githubusercontent.com/ThePyroTF2/Notes-MD/main/FRC%20Rules/2023/Images/Driver%20Station%20Status%20LED%20Strip%20Info%20IMG%20Pt.%202.png)
+
+Light patterns layer as alliances score throughout the match. 
+
+![Third image describing the different status codes on the LED Strip](https://raw.githubusercontent.com/ThePyroTF2/Notes-MD/main/FRC%20Rules/2023/Images/Driver%20Station%20Status%20LED%20Strip%20Info%20IMG%20Pt.%203.png)
+# Interesting Notes
 Points are on a node basis rather than a piece basis. A full node = points, rather than a piece on the grid = points. So, if a piece is removed from a node, points are lost. If the same piece is placed on a node with a different point value, the different point value is gained. For example:  
 - In teleop, a cube is placed in the bottom row, then moved to the top row. Only 5 points are gained.
 - In teleop, a cube is placed in the top row, then moved to the bottom row. Only 2 points are gained.

@@ -17,7 +17,7 @@
     - 5 links on the grid = 1 ranking point (sustainability bonus)
 - Bottom row is all "dual nodes", which can fit either cubes or cones
 - Other two rows have either cube nodes or cone nodes
-    - cone-cube-cone-cone-cube-cone-cone-cube-cone
+    - 🔺🟪🔺🔺🟪🔺🔺🟪🔺
 - Divided into 3 3x3 grids
     - The middle one is the "coopertition grid"
     - 3 pieces in coopertition grid decreases sustainability bonus threshold by 1 (from 5 links to 4)

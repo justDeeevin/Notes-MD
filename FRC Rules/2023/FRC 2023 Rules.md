@@ -1,3 +1,16 @@
+# Table of Contents
+- [Gameplay](#gameplay)
+    - [The Grid](#the-grid)
+    - [The Substations](#the-substations)
+    - [The Charging Station](#the-charging-station)
+- [Rules](#rules)
+- [Driver Station Status LED Strip](#driver-station-status-led-strip)
+- [Interesting Notes](#interesting-notes)
+- [Definitions](#defitions)
+    - [CONTROL](#control)
+    - [Foul](#foul)
+    - [Tech foul](#tech-foul)
+    - [Yellow card](#yellow-card)
 # Gameplay
 ### The Grid
 - 3x9 grid of "nodes"

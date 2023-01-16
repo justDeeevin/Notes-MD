@@ -8,21 +8,17 @@
 - [ ] Electrical components cleanup
     - [ ] Find somewhere to put em
     - [ ] Move em
+- [ ] Google Docs in VSCode
+    - [ ] `.gdoc` filetype?
 ## Extracurricular Responsibilities
 - [ ] Lifesteal MC mod/plugin
 - [ ] RC Plane research
-- [ ] Google Docs in VSCode
-    - [ ] `.gdoc` filetype?
 
 # Doing
 ## School
 ### Upcoming
 ### Due
 ### Late
-- [ ] Gov. branches of power game
-    - [x] Ask teacher about making up
-    - [ ] Finish
-    - [ ] Submit
 ### Other
 - [ ] Book drive SSL sheet
 ## Personal
@@ -44,6 +40,10 @@
 
 # Done
 ## School
+- [x] Gov. branches of power game
+    - [x] Ask teacher about making up
+    - [x] Finish
+    - [x] Submit
 - [x] Gov. unit 2 test study guide
     - [x] Finish
     - [x] Submit

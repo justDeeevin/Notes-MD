@@ -1,32 +1,26 @@
-\documentclass[12pt]{article}
-\usepackage[margin=1.25in]{geometry}
-\usepackage{amsmath, amssymb}
-\usepackage{array}
-\usepackage{gensymb}
-\usepackage{tikz, pgfplots}
-\usetikzlibrary{shapes, arrows, positioning, plotmarks}
-\pgfplotsset{width=10cm,compat=1.9}
-\usepackage{letltxmacro}
-\makeatletter
-\let\oldr@@t\r@@t
-\def\r@@t#1#2{%
-\setbox0=\hbox{$\oldr@@t#1{#2\,}$}\dimen0=\ht0
-\advance\dimen0-0.2\ht0
-\setbox2=\hbox{\vrule height\ht0 depth -\dimen0}%
-{\box0\lower0.4pt\box2}}
-\LetLtxMacro{\oldsqrt}{\sqrt}
-\renewcommand*{\sqrt}[2][\ ]{\oldsqrt[#1]{#2}}
-\makeatother
+\documentclass{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+\title{\Huge{Magnet Precalculus CD}\\Semester 1 Notes}
+\author{\huge{Devin D. Droddy}}
+\date{}
 
 \begin{document}
-    \begin{center}
-        {\large Reciprocal Functions}
-    \end{center}
 
-    Parent function: \(f(x)=\frac{1}{x}\)
+\maketitle
+\newpage% or \cleardoublepage
+% \pdfbookmark[<level>]{<title>}{<dest>}
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
+\pagebreak
 
-    Standard form: \(f(x)=\frac{a}{x-h}+k\)
-    
+\chapter{}
+\section{The Reciprocal Function}
+\dfn{Reciprocal function}{
+	Any function where an expression is being divided by \(x\). The parent reciprocal function is \(f(x)=\frac{1}{x}\), and the standard form of a reciprocal function is \(f(x)=\frac{a}{x+h}+k\)
     \begin{center}
         \begin{tikzpicture}
             \begin{axis}[
@@ -48,11 +42,10 @@
             \end{axis}
         \end{tikzpicture}
     \end{center}
+}
 
-    Reciprocal functions always have 2 or more asymptotes: 1 or more vertical asymptote, and a horizontal \textbf{or} slant asymptote. Should \(a\) remain a constant, the horizontal asymptote is at \(y=k\), and the vertical asymptotes are at \(x=n\), where \(n\) is all values of \(x\) that make the expression on the denominator equal 0.
-
-    Some examples:
-
+Reciprocal functions always have 2 or more asymptotes: 1 or more vertical asymptote, and a horizontal \textbf{or} slant asymptote. Should \(a\) remain a constant, the horizontal asymptote is at \(y=k\), and the vertical asymptotes are at \(x=n\), where \(n\) is all values of \(x\) that make the expression on the denominator equal 0.
+\ex{Translation 3 units right and 2 units down}{
     \begin{center}
         \begin{tikzpicture}
             \begin{axis}[
@@ -63,7 +56,6 @@
                 ytick distance = 5,
                 ymin = -20,
                 ymax = 20,
-                title = {\(f(x)=\frac{1}{x-3}-2\)}
             ]
                 \addplot[color = red, samples = 200]{(1 / (x - 3)) - 2};
                 \addlegendentry{\(f(x)=\frac{1}{x-3}-2\)}
@@ -75,9 +67,9 @@
             \end{axis}
         \end{tikzpicture}
     \end{center}
-
     Here, \(h=3\), so the function is translated 3 units right, so the vertical asymptote is at \(x=3\). Similarly, \(k=-2\), so the function is translated 2 units down, so the horizontal asymptote is at \(y=-2\).
-
+}
+\ex{Translation 2 units left and 4 units down}{
     \begin{center}
         \begin{tikzpicture}
             \begin{axis}[
@@ -88,7 +80,6 @@
                 ytick distance = 5,
                 ymin = -20,
                 ymax = 20,
-                title = {\(f(x)=\frac{2}{x+2}-4\)}
             ]
                 \addplot[color = red, samples = 200]{(2 / (x + 2)) - 4};
                 \addlegendentry{\(f(x)=\frac{2}{x+2}-4\)}
@@ -100,23 +91,25 @@
             \end{axis}
         \end{tikzpicture}
     \end{center}
-
     Here, \(h=-2\), so the function is translated 2 units left, so the vertical asymptote is at \(x=-2\). Similarly, \(k=-4\), so the function is translated 4 units down, so the horizontal asymptote is at \(y=-4\).
+}
+\begin{note}
+    There are a few special cases for the horizontal asymptote where \(a\) is a polynomial rather than a constant.
 
-    There are a few special cases for the horizontal asymptote where \(a\) is a polynomial rather than a constant.\\
+    \noindent\textbf{Should the degree in the numerator be less than in the denominator,} the horizontal asymptote will be at \(y=0\)
 
-    \textbf{Should the degree in the numerator be less than in the denominator,} the horizontal asymptote will be at \(y=0\)\\
+    \noindent\textbf{Should the degree in the numerator be equal to that in the denominator,} the horizontal asymptote will be at \(y=n\), where \(n\) is the quotient of the greatest-degree coefficients of the numerator and denominator.
 
-    \textbf{Should the degree in the numerator be equal to that in the denominator,} the horizontal asymptote will be at \(y=n\), where \(n\) is the quotient of the greatest-degree coefficients of the numerator and denominator.\\
-    For example, given the function \(f(x)=\frac{-15x+10}{3x-33}\), we can divide 6 by 3 to find that the horizontal asymptote of \(f(x)\) is at \(y=-5\).\\
-
+	\noindent\textbf{Should the degree in the numerator be greater than in the denominator,} there is not a horizontal asymptote, but a slant asymptote. The slant asymptote will be at \(y=n\), where \(n\) is the result of long-dividing the numerator and denominator and excluding the remainder.
+\end{note}
+\ex{Equal degree polynomials}{
+    Given the function \(f(x)=\frac{-15x+10}{3x-33}\), we can divide 6 by 3 to find that the horizontal asymptote of \(f(x)\) is at \(y=-5\).
     \begin{center}
         \begin{tikzpicture}
             \begin{axis}[
                 axis lines = middle,
                 xlabel = \(x\),
                 ylabel = \(y\),
-                title = {\(f(x)=\frac{-15x+10}{3x-33}\)}
             ]
                 \addplot[color = red, samples = 200, domain = -50:50]{((-15 * x)  + 10) / ((3 * x) - 33)};
                 \addlegendentry{\(f(x)=\frac{-15x+10}{3x-33}\)}
@@ -125,17 +118,15 @@
             \end{axis}
         \end{tikzpicture}
     \end{center}
-
-    \textbf{Should the degree in the numerator be greater than in the denominator,} there is not a horizontal asymptote, but a slant asymptote. The slant asymptote will be at \(y=nx\), where \(n\) is the result of long-dividing the numerator and denominator and excluding the remainder.\\
-    For example, given the function \(f(x)=\frac{2x^2-4x+5}{x+2}\), we can do long division to find that \(\frac{2x^2-4x+5}{x+2}=2x-8+\frac{21}{x+2}\). From this, we can derive that the slant asymptote of \(f(x)\) is \(y=2x-8\).
-
+}
+\ex{Greater degree numerator}{
+	Given the function \(f(x)=\frac{2x^2-4x+5}{x+2}\), we can do long division to find that \(\frac{2x^2-4x+5}{x+2}=2x-8+\frac{21}{x+2}\). From this, we can derive that the slant asymptote of \(f(x)\) is \(y=2x-8\).
     \begin{center}
         \begin{tikzpicture}
             \begin{axis}[
                 axis lines = middle,
                 xlabel = \(x\),
                 ylabel = \(y\),
-                title = {\(f(x)=\frac{2x^2-4x+5}{x+2}\)},
             ]
                 \addplot[color = red, samples = 200, domain = -40:40]{((2 * x^2) - (4 * x) + 5) / (x + 2)};
                 \addlegendentry{\(f(x)=\frac{2x^2-4x+5}{x+2}\)}
@@ -144,38 +135,34 @@
             \end{axis}
         \end{tikzpicture}
     \end{center}
+}
+\section{The Trigonometric Identities}
 
-    And here we can see that this is correct.
+\noindent The angle sum identities are as follows:
+\begin{itemize}
+    \item \(\sin(\alpha\pm\beta)=\sin(\alpha)\cos(\beta)\pm\sin(\beta)\cos(\alpha)\)
+    \item \(\cos(\alpha\pm\beta)=\cos(\alpha)\cos(\beta)\mp\sin(\alpha)sin(\beta)\)
+    \item \(\tan(\alpha\pm\beta)=\frac{\tan(\alpha)\pm\tan(\beta)}{1\mp\tan(\alpha)\tan(\beta)}\)
+\end{itemize}
 
-    \begin{center}
-        {\large The Trigonometric Identities}
-    \end{center}
+\noindent These ``double'' identities can be derived from the sum identities:
+\begin{itemize}
+    \item \(\sin(2\theta)=2\sin(\theta)\cos(\theta)\)
+    \item \(\cos(2\theta)=cos^2(\theta)-\sin^2(\theta)=2\cos^2(\theta)-1=1-2\sin^2(\theta)\)
+    \item \(\tan(2\theta)=\frac{2\tan(\theta)}{1-\tan^2(\theta)}\)
+\end{itemize}
 
-    \noindent The angle sum identities are as follows:
-    \begin{itemize}
-        \item \(\sin(\alpha\pm\beta)=\sin(\alpha)\cos(\beta)\pm\sin(\beta)\cos(\alpha)\)
-        \item \(\cos(\alpha\pm\beta)=\cos(\alpha)\cos(\beta)\mp\sin(\alpha)sin(\beta)\)
-        \item \(\tan(\alpha\pm\beta)=\frac{\tan(\alpha)\pm\tan(\beta)}{1\mp\tan(\alpha)\tan(\beta)}\)
-    \end{itemize}
+\noindent There are also half-angle identities:
+\begin{itemize}
+    \item \(\sin(\frac{\theta}{2})=\pm\sqrt{\frac{1-\cos(\theta)}{2}}\)
+    \item \(\cos(\frac{\theta}{2})=\pm\sqrt{\frac{1+\cos(\theta)}{2}}\)
+    \item \(\tan(\frac{\theta}{2})=\pm\sqrt{\frac{1-\cos(\theta)}{1+\cos(\theta)}}=\frac{1-\cos(\theta)}{\sin(\theta)}=\frac{\sin(\theta)}{1+\cos(\theta)}\)
+\end{itemize}
 
-    \noindent These ``double'' identities can be derived from the sum identities:
-    \begin{itemize}
-        \item \(\sin(2\theta)=2\sin(\theta)\cos(\theta)\)
-        \item \(\cos(2\theta)=cos^2(\theta)-\sin^2(\theta)=2\cos^2(\theta)-1=1-2\sin^2(\theta)\)
-        \item \(\tan(2\theta)=\frac{2\tan(\theta)}{1-\tan^2(\theta)}\)
-    \end{itemize}
-
-    \noindent There are also half-angle identities:
-    \begin{itemize}
-        \item \(\sin(\frac{\theta}{2})=\pm\sqrt{\frac{1-\cos(\theta)}{2}}\)
-        \item \(\cos(\frac{\theta}{2})=\pm\sqrt{\frac{1+\cos(\theta)}{2}}\)
-        \item \(\tan(\frac{\theta}{2})=\pm\sqrt{\frac{1-\cos(\theta)}{1+\cos(\theta)}}=\frac{1-\cos(\theta)}{\sin(\theta)}=\frac{\sin(\theta)}{1+\cos(\theta)}\)
-    \end{itemize}
-
-    \noindent Some other crucial ones:
-    \begin{itemize}
-        \item \(\sin^2(\theta)+\cos^2(\theta)=1\)
-        \item \(\sec^2(\theta)=1+\tan^2(\theta)\)
-        \item \(\csc^2(\theta)=1+\cot^2(\theta)\)
-    \end{itemize}
+\noindent Some other crucial identities:
+\begin{itemize}
+    \item \(\sin^2(\theta)+\cos^2(\theta)=1\)
+    \item \(\sec^2(\theta)=1+\tan^2(\theta)\)
+    \item \(\csc^2(\theta)=1+\cot^2(\theta)\)
+\end{itemize}
 \end{document}

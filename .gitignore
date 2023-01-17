@@ -5,3 +5,5 @@
 *.log
 *.md5
 *.gz
+*.toc
+*.synctex*

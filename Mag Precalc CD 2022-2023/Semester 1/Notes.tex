@@ -20,7 +20,7 @@
 \chapter{}
 \section{The Reciprocal Function}
 \dfn{Reciprocal function}{
-	Any function where an expression is being divided by \(x\). The parent reciprocal function is \(f(x)=\frac{1}{x}\), and the standard form of a reciprocal function is \(f(x)=\frac{a}{x+h}+k\)
+    Any function where an expression is being divided by \(x\). The parent reciprocal function is \(f(x)=\frac{1}{x}\), and the standard form of a reciprocal function is \(f(x)=\frac{a}{x+h}+k\)
     \begin{center}
         \begin{tikzpicture}
             \begin{axis}[
@@ -98,9 +98,9 @@ Reciprocal functions always have 2 or more asymptotes: 1 or more vertical asympt
 
     \noindent\textbf{Should the degree in the numerator be less than in the denominator,} the horizontal asymptote will be at \(y=0\)
 
-    \noindent\textbf{Should the degree in the numerator be equal to that in the denominator,} the horizontal asymptote will be at \(y=n\), where \(n\) is the quotient of the greatest-degree coefficients of the numerator and denominator.
+    \noindent\textbf{Should the degree in the numerator be equal to that in the denominator,} the horizontal asymptote will be at \(y=n\), where \(n\) is the quotient of the leading coefficients of the numerator and denominator.
 
-	\noindent\textbf{Should the degree in the numerator be greater than in the denominator,} there is not a horizontal asymptote, but a slant asymptote. The slant asymptote will be at \(y=n\), where \(n\) is the result of long-dividing the numerator and denominator and excluding the remainder.
+    \noindent\textbf{Should the degree in the numerator be greater than in the denominator,} there is not a horizontal asymptote, but a slant asymptote. The slant asymptote will be at \(y=n\), where \(n\) is the result of long-dividing the numerator and denominator and excluding the remainder.
 \end{note}
 \ex{Equal degree polynomials}{
     Given the function \(f(x)=\frac{-15x+10}{3x-33}\), we can divide 6 by 3 to find that the horizontal asymptote of \(f(x)\) is at \(y=-5\).
@@ -120,7 +120,7 @@ Reciprocal functions always have 2 or more asymptotes: 1 or more vertical asympt
     \end{center}
 }
 \ex{Greater degree numerator}{
-	Given the function \(f(x)=\frac{2x^2-4x+5}{x+2}\), we can do long division to find that \(\frac{2x^2-4x+5}{x+2}=2x-8+\frac{21}{x+2}\). From this, we can derive that the slant asymptote of \(f(x)\) is \(y=2x-8\).
+    Given the function \(f(x)=\frac{2x^2-4x+5}{x+2}\), we can do long division to find that \(\frac{2x^2-4x+5}{x+2}=2x-8+\frac{21}{x+2}\). From this, we can derive that the slant asymptote of \(f(x)\) is \(y=2x-8\).
     \begin{center}
         \begin{tikzpicture}
             \begin{axis}[
@@ -136,6 +136,98 @@ Reciprocal functions always have 2 or more asymptotes: 1 or more vertical asympt
         \end{tikzpicture}
     \end{center}
 }
+\section{The Polynomial Function}
+\dfn{The Polynomial Function}{
+    Any function where \(f(x)\) is a polynomial. Quadratic functions are a type of polynomial function.
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = \(y\),
+            ]
+                \addplot[color = red, samples = 200]{x^2};
+                \addlegendentry{\(f(x)=x^2\)};
+            \end{axis}
+        \end{tikzpicture}
+    \end{center}
+
+    \noindent As are cubic functions.
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = \(t\),
+                title = ,
+            ]
+                \addplot[color = red, samples = 200]{x^3};
+                \addlegendentry{\(f(x)=x^3\)};
+            \end{axis}
+        \end{tikzpicture}
+    \end{center}
+}
+
+The zeros of \(f(x)\) are its x-intercepts, and the multiplicity of those zeros tells us what effect they have on the graph.
+\begin{itemize}
+    \item \textbf{Multiplicity 1:} Mere x-intercept
+    \item \textbf{Even multiplicity:} Relative maximum/minimum
+    \item \textbf{Odd multiplicity \(>\)1:} Inflection point 
+\end{itemize}
+\ex{Multiplicity 1 zero}{
+    The function \(f(x)=(x+3)(x+2)\) has 2 zeros, both of which have a multiplicity of 1. Thus, they will serve as two x-intercepts.
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = \(y\),
+                ymin = -10,
+                ymax = 10,
+            ]
+                \addplot[color = red, samples = 200]{(x + 3) * (x + 2)};
+                \addlegendentry{\(f(x)=(x+3)(x+2)\)};
+                \node[label={90:{\((-3,0)\)}},circle,fill,inner sep=2pt] at (axis cs:-3,0) {};
+                \node[label={90:{\((-2,0)\)}},circle,fill,inner sep=2pt] at (axis cs:-2,0) {};
+            \end{axis}
+        \end{tikzpicture}
+    \end{center}
+}
+\ex{Even multiplicity zero}{
+    The function \(f(x)=(x-4)^2\) has 1 zero which has a multiplicity of 2. Thus, it will serve as a relative minimum.
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = \(y\),
+            ]
+                \addplot[color = red, samples = 200, domain = -4:12]{(x - 4)^2};
+                \addlegendentry{\(f(x)=(x-4)^2\)};
+                \node[label={90:{\((4,0)\)}},circle,fill,inner sep=2pt] at (axis cs:4,0) {};
+            \end{axis}
+        \end{tikzpicture}
+    \end{center}
+}
+\ex{Odd multiplicity zero}{
+    The function \(f(x)=(x-7)^3\) has 2 zeros, one of which has a multiplicity of 3, which will serve as an inflection point.
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{axis}[
+                axis lines = middle,
+                xlabel = \(x\),
+                ylabel = \(y\),
+                title = ,
+            ]
+                \addplot[color = red, samples = 200, domain = -50:50]{((x - 7)^3)};
+                \addlegendentry{\(f(x)=(x-7)^3\)};
+                \node[label={90:{\((7,0)\)}},circle,fill,inner sep=2pt] at (axis cs:7,0) {};
+            \end{axis}
+        \end{tikzpicture}
+    \end{center}
+}
+
+The end behavior of polynomial functions is predictable. For even degrees, \(\underset{x\to\infty}{\lim}f(x)=\infty;\underset{x\to -\infty}{\lim}f(x)=\infty\), and for odd degrees, \(\underset{x\to\infty}{\lim}f(x)=\infty;\underset{x\to -\infty}{\lim}f(x)=-\infty\). Of course, if the leading coefficient is negative, then the limits have their signs inverted.
 \section{The Trigonometric Identities}
 
 \noindent The angle sum identities are as follows:

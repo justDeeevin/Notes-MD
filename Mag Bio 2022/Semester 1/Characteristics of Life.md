@@ -100,7 +100,7 @@ There are four categores of biologically important polymers:
 Each has unique monomers and specific characteristics
 
 ### Biologically Important Monomers
-- Glycerol + fatty acids OR cholesterol backbone; Lipids
+- Glycerol OR cholesterol backbone + 3 fatty acids; Lipids
     - $C$
     - $H$
     - $O$

@@ -2,6 +2,7 @@
 - [Q&A](https://frc-qa.firstinspires.org/)
 - [All team updates](https://firstfrc.blob.core.windows.net/frc2023/Manual/TeamUpdates/TeamUpdates-combined.pdf)
 - [Chief Delphi](https://www.chiefdelphi.com/) (FIRST Forums)
+    - [Penalty reference sheet](https://docs.google.com/spreadsheets/d/1xBBDQpVu5KCyg2-9ij77-AUAX7B7zGdvJ1ivshXpffc/edit?usp=sharing)
 
 # Table of Contents
 - [Gameplay](#gameplay)

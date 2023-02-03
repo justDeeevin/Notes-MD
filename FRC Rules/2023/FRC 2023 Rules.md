@@ -1,6 +1,7 @@
 - [Game manual](https://firstfrc.blob.core.windows.net/frc2023/Manual/2023FRCGameManual.pdf)
 - [Q&A](https://frc-qa.firstinspires.org/)
 - [All team updates](https://firstfrc.blob.core.windows.net/frc2023/Manual/TeamUpdates/TeamUpdates-combined.pdf)
+- [Chief Delphi](https://www.chiefdelphi.com/) (FIRST Forums)
 
 # Table of Contents
 - [Gameplay](#gameplay)

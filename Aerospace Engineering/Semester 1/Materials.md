@@ -71,3 +71,20 @@ More commonly, Metal Alloy
         - Carbon adds strength to soft iron
         - As carbon content inreases, strength and brittleness increase
         - Typical steel alloys are 1% carbon
+
+# Composites
+Composites are heterogenious mixtures of materials. They are composed of a reinforcement and a matrix. You can think of it as a bunch of stuff (reinforcement) glued together with the matrix.
+### Advantages of composites
+- **High** strength-to-weight ratio
+- Long life
+- Different vibration profile
+- Easy to shape
+- Tailored strength characteristics
+- No corrosion
+
+### Common composites
+- Fiberglass
+- Graphite
+- Kevlar
+- Borong
+- Silicon carbide

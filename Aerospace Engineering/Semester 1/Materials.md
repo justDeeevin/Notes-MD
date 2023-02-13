@@ -73,7 +73,7 @@ More commonly, Metal Alloy
         - Typical steel alloys are 1% carbon
 
 # Composites
-Composites are heterogenious mixtures of materials. They are composed of a reinforcement and a matrix. You can think of it as a bunch of stuff (reinforcement) glued together with the matrix.
+Composites are heterogenious mixtures of materials. They are composed of a reinforcement and a matrix. It can be thought of as a bunch of stuff (reinforcement) glued together with the matrix.
 ### Advantages of composites
 - **High** strength-to-weight ratio
 - Long life

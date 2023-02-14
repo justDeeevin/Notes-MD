@@ -1,0 +1,140 @@
+\documentclass{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+\title{\Huge{Magnet Precalculus CD}\\Polar coordinates}
+\author{\huge{Devin D. Droddy}}
+\date{}
+
+\begin{document}
+\usepgfplotslibrary{polar}
+    \maketitle
+    \newpage% or \cleardoublepage
+    % \pdfbookmark[<level>]{<title>}{<dest>}
+    \pdfbookmark[section]{\contentsname}{toc}
+    \tableofcontents
+    \pagebreak
+
+    \chapter{Introduction to Polar Coordinates}
+
+    Normally, points and functions are represented rectangularly, with an $x$ and a $y$ coordinate. However, they can also be represented in polar form.
+    \dfn{Polar Coordinates}{
+        A coordinate represented by a distance from the origin $r$ and an angle from the positive x-axis $\theta$. Polar coordinates are in the form $(r,\theta)$.
+    }
+
+    In polar functions, the dependent variable is generally $r$. With polar, you can far more easily graph circles and other curves. For instance, take $r=3$:
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{polaraxis}[
+                axis lines = box,
+            ]
+            \addplot [
+                red,
+                domain=0:360,
+                samples=200,
+                smooth,
+                data cs=polar,
+            ](x,{3});
+            \end{polaraxis}
+        \end{tikzpicture}
+    \end{center}
+
+    \chapter{Polar function types}
+    \section{Circle}
+
+    Circles in polar form are fairly simple. There are three kinds:
+    \begin{itemize}
+        \item $r=n$
+        \item $r=n\sin(\theta)$
+        \item $r=n\cos(\theta)$
+    \end{itemize}
+
+    In the case of $r=n$, the circle is centered on the pole (or the origin), and has a radius of $|n|$.
+    \ex{$r=n$ circle}{
+        \begin{center}
+            \begin{tikzpicture}
+                \begin{polaraxis}[
+                    axis lines = box,
+                ]
+                    \addplot [
+                        red,
+                        domain=0:360,
+                        samples=200,
+                        smooth,
+                        data cs=polar,
+                    ](x,{3});
+                    \addlegendentry{$r=3$}
+
+                    \addplot [
+                        blue,
+                        domain=0:360,
+                        samples=200,
+                        smooth,
+                        data cs=polar,
+                    ](x,{1});
+                    \addlegendentry{$r=1$}
+                \end{polaraxis}
+            \end{tikzpicture}
+        \end{center}
+    }
+
+    In the case of $r=n\cos(\theta)$, the circle is centered at (polar) $(\frac{n}{2},0)$ and has a radius of $\frac{n}{2}$. You can also think of it as being centered on the polar axis (or positive x-axis), tangent to the pole, and tangent to the polar point $(n,0)$.
+    \ex{$r=n\cos(\theta)$ circle}{
+        \begin{center}
+            \begin{tikzpicture}
+                \begin{polaraxis}[
+                    axis lines = box
+                ]
+                    \addplot[
+                        red,
+                        domain=0:360,
+                        samples=200,
+                        smooth,
+                        data cs=polar,
+                    ](x, {2*cos(x)});
+                    \addlegendentry{$r=2\cos(\theta)$};
+                    \addplot[
+                        blue,
+                        domain=0:360,
+                        samples=200,
+                        smooth,
+                        data cs=polar,
+                    ](x, {-5*cos(x)});
+                    \addlegendentry{$r=-5\cos(\theta)$}
+                \end{polaraxis}
+            \end{tikzpicture}
+        \end{center}
+    }
+
+    The function $r=n\sin(\theta)$ is the same as $r=n\cos(\theta)$, but instead of being centered on the polar axis, it is centered on the polar line $\theta=\frac{\pi}{2}$ (or the y-axis).
+
+    \ex{$r=n\sin(\theta)$ circle}{
+        \begin{center}
+            \begin{tikzpicture}
+                \begin{polaraxis}[
+                    axis lines = box
+                ]
+                    \addplot[
+                        red,
+                        domain=0:360,
+                        samples=200,
+                        smooth,
+                        data cs=polar,
+                    ](x, {-1*sin(x)});
+                    \addlegendentry{$r=-1\sin(\theta)$};
+
+                    \addplot[
+                        blue,
+                        domain=0:360,
+                        samples=200,
+                        smooth,
+                        data cs=polar,
+                    ](x, {5*sin(x)});
+                    \addlegendentry{$r=5\sin(\theta)$};
+                \end{polaraxis}
+            \end{tikzpicture}
+        \end{center}
+    }
+\end{document}

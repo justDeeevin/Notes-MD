@@ -1,4 +1,7 @@
+# Materials
+
 Commonly used aerospace materials:
+
 - Wood
 - Steel
 - Aluminum alloys
@@ -8,6 +11,7 @@ Commonly used aerospace materials:
 - Fiber-reinforced composites
 
 Factors for selecting materials
+
 - Function
 - Material properties
     - Strength-to-weight ratio
@@ -22,6 +26,7 @@ Factors for selecting materials
 The average commercial aircraft has a 30-year life cycle, in service for 60,000 flight hours, 20,000 flights, and 100,000 miles of taxiing (which could go 4 times around the earth's circumference).
 
 Flight stresses
+
 - Pressure differential between fuselage and outside
 - Temperature differential between ground to cruise
 - Impact load of landing
@@ -29,6 +34,7 @@ Flight stresses
 Reducing material density reduces airframe weight and improves performance. Material density reductions are 3 to 5 times more effective than increasing tensile strength, modulus, or impact resistance.
 
 Early aircraft built of wood
+
 - Wright brothers used Spruce
 - Widely available
 - Mostly uniform piece to piece
@@ -40,6 +46,7 @@ Early aircraft built of wood
 - Natural product lower consistency than man-made
 
 More commonly, Metal Alloy
+
 - Aluminum Alloy
     - Cutting-edge (1920s-60s)
     - Most abundant metal in the earth's crust
@@ -72,9 +79,12 @@ More commonly, Metal Alloy
         - As carbon content inreases, strength and brittleness increase
         - Typical steel alloys are 1% carbon
 
-# Composites
+## Composites
+
 Composites are heterogenious mixtures of materials. They are composed of a reinforcement and a matrix. It can be thought of as a bunch of stuff (reinforcement) glued together with the matrix.
+
 ### Advantages of composites
+
 - **High** strength-to-weight ratio
 - Long life
 - Different vibration profile
@@ -83,6 +93,7 @@ Composites are heterogenious mixtures of materials. They are composed of a reinf
 - No corrosion
 
 ### Common composites
+
 - Fiberglass
 - Graphite
 - Kevlar

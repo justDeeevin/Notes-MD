@@ -1,7 +1,9 @@
 # Notes
+
 - [The types of stem cells](#the-types-of-stem-cells)
 
 ## The types of stem cells
+
 - Adult/Tissue-specific stem cells
     - Used to create specific kinds of cells
     - Replace existing cells in organs

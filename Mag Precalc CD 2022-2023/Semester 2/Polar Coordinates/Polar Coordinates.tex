@@ -41,8 +41,8 @@
         \end{tikzpicture}
     \end{center}
 
-    \chapter{Polar function types}
-    \section{Circle}
+    \chapter{Polar Function Types}
+    \section{Circles}
 
     Circles in polar form are fairly simple. There are three kinds:
     \begin{itemize}
@@ -74,7 +74,7 @@
                         smooth,
                         data cs=polar,
                     ](x,{1});
-                    \addlegendentry{$r=1$}
+                    \addlegendentry{$r=1$};
                 \end{polaraxis}
             \end{tikzpicture}
         \end{center}
@@ -102,7 +102,7 @@
                         smooth,
                         data cs=polar,
                     ](x, {-5*cos(x)});
-                    \addlegendentry{$r=-5\cos(\theta)$}
+                    \addlegendentry{$r=-5\cos(\theta)$};
                 \end{polaraxis}
             \end{tikzpicture}
         \end{center}
@@ -136,5 +136,322 @@
                 \end{polaraxis}
             \end{tikzpicture}
         \end{center}
+    }
+
+    \begin{note}
+        This behavior of $\sin$ and $\cos$ holds true for all functions that stay centered around either the $x$ or $y$ axes. Also, if the trigonometric function is being multiplied by a negative, it is reflected across the axis it isn't centered on (so $-\sin$ would be reflected across the x-axis).
+    \end{note}
+
+    \section{Limaçon Curves}
+
+    \dfn{Limaçon Curve}{
+        A limaçon curve function takes the form of $r=a \pm b\sin(\theta)$ or $r=a \pm b\cos(\theta)$.
+        \begin{center}
+            \begin{tikzpicture}
+                \begin{polaraxis}[
+                    axis lines = box
+                ]
+                    \addplot[
+                        red,
+                        domain=0:360,
+                        samples=200,
+                        smooth,
+                        data cs=polar,
+                    ](x, {1+(2*cos(x))});
+                    \addlegendentry{$r=1+2\cos(\theta)$};
+                \end{polaraxis}
+            \end{tikzpicture}
+        \end{center}
+    }
+
+    4 points can be derived from a given limaçon function:
+    \begin{itemize}
+        \item In the case of $\cos$:
+        \begin{itemize}
+            \item Its 2 x-intercepts are at the rectangular points $(a+b,0)$ and $(b-a,0)$
+            \item its 2 y-intercepts are at the rectangular points $(0,a)$ and $(0,-a)$
+        \end{itemize}
+        \item In the case of $\sin$:
+        \begin{itemize}
+            \item Its 2 y-intercepts are at the rectangular points $(a+b,0)$ and $(b-a,0)$
+            \item its 2 x-intercepts are at the rectangular points $(0,a)$ and $(0,-a)$
+        \end{itemize}
+    \end{itemize}
+
+    This behavior creates 3 types of limaçon curve:
+    \begin{itemize}
+        \item Innerloop limaçon curves, where $a<b$
+        \item Cardioid curves, where $a=b$
+        \item Convex limaçon curves, where $a>b$
+    \end{itemize}
+
+    \ex{Innerloop Limaçon Curve}{
+        \begin{center}
+            \begin{tikzpicture}
+                \begin{polaraxis}[
+                    axis lines = box
+                ]
+                    \addplot[
+                        red,
+                        domain=0:360,
+                        samples=200,
+                        smooth,
+                        data cs=polar,
+                    ](x, {2+(3*cos(x))});
+                    \addlegendentry{$r=2+3\cos(\theta)$};
+
+                    \addplot[
+                        blue,
+                        domain=0:360,
+                        samples=200,
+                        smooth,
+                        data cs=polar,
+                    ](x, {1-(4*sin(x))});
+                    \addlegendentry{$r=1-4\sin(\theta)$};
+                \end{polaraxis}
+            \end{tikzpicture}
+        \end{center}
+    }
+
+    \ex{Cardioid curve}{
+        \begin{center}
+            \begin{tikzpicture}
+                \begin{polaraxis}[
+                    axis lines = box
+                ]
+                    \addplot[
+                        red,
+                        domain=0:360,
+                        samples=200,
+                        smooth,
+                        data cs=polar,
+                    ](x, {3+(3*sin(x))});
+                    \addlegendentry{$r=3+3\sin(x)$};
+
+                    \addplot[
+                        blue,
+                        domain=0:360,
+                        samples=200,
+                        smooth,
+                        data cs=polar,
+                    ](x, {1-cos(x)});
+                    \addlegendentry{$r=1-\cos(x)$};
+                \end{polaraxis}
+            \end{tikzpicture}
+        \end{center}
+    }
+
+    \ex{Convex Limaçon Curve}{
+        \begin{center}
+            \begin{tikzpicture}
+                \begin{polaraxis}[
+                    axis lines = box
+                ]
+                    \addplot[
+                        red,
+                        domain=0:360,
+                        samples=200,
+                        smooth,
+                        data cs=polar,
+                    ](x, {5+(3*cos(x))});
+                    \addlegendentry{$r=5+3\cos(x)$};
+
+                    \addplot[
+                        blue,
+                        domain=0:360,
+                        samples=200,
+                        smooth,
+                        data cs=polar,
+                    ](x, {4+sin(x)});
+                    \addlegendentry{$r=4+\sin(x)$};
+                \end{polaraxis}
+            \end{tikzpicture}
+        \end{center}
+
+        These can look a good deal like circles sometimes, but it's important to recognize that they aren't.
+    }
+
+    \section{Rose Curves}
+
+    \dfn{Rose Curve}{
+        A rose curve function takes the form of $r=b\sin(n\theta)$ or $r=b\cos(n\theta)$.
+        \begin{center}
+            \begin{tikzpicture}
+                \begin{polaraxis}[
+                    axis lines = box
+                ]
+                    \addplot[
+                        red,
+                        domain=0:360,
+                        samples=200,
+                        smooth,
+                        data cs=polar,
+                    ](x, {2*cos(2*x)});
+                    \addlegendentry{$r=2\cos(2\theta)$};
+                \end{polaraxis}
+            \end{tikzpicture}
+        \end{center}
+    }
+
+    Rose curves appear like a flower, hence their name. The number of petals is determined by $n$. Should $n$ be even, the number of petals is $2n$. Should $n$ be odd, the number of petals is $n$. The length of the petals is always equal to $b$. The petals are always separated by an angle $\frac{2\pi}{n_p}$, where $n_p$ is the number of petals. In the case of $cos$, the first pedal is always at the angle 0. In the case of $sin$, however, the first petal is located at $\frac{90^{\circ}}{n_p}$ where, once again, $n_p$ is the number of petals.
+
+    \ex{$\sin$ Rose Curve}{
+        \begin{center}
+            \begin{tikzpicture}
+                \begin{polaraxis}[
+                    axis lines = box
+                ]
+                    \addplot[
+                        red,
+                        domain=0:360,
+                        samples=200,
+                        smooth,
+                        data cs=polar,
+                    ](x, {2*sin(3*x)});
+                    \addlegendentry{$r=2\sin(3\theta)$};
+                \end{polaraxis}
+            \end{tikzpicture}
+        \end{center}
+    }
+
+    \section{Lemniscate Curves}
+
+    Well, how does one graph a rose with 2 petals? Using lemniscate curves, that's how!
+
+    \dfn{Lemniscate Curve}{
+        A lemniscate curve function takes the form of $r^2=\pm n^2\sin(2\theta)$ or $r^2=\pm n^2\cos(2\theta)$.
+        \begin{center}
+            \begin{tikzpicture}
+                \begin{polaraxis}[
+                    axis lines = box
+                ]
+                    \addplot[
+                        red,
+                        domain=0:360,
+                        samples=2000,
+                        smooth,
+                        data cs=polar,
+                    ](x, {sqrt(9*cos(2*x))});
+                    \addlegendentry{$r^2=9\cos(2\theta)$};
+                \end{polaraxis}
+            \end{tikzpicture}
+        \end{center}
+
+        \begin{note}
+            Lemniscates cross the pole. It just takes... infinite graphing precision to represent that. I'd rather spare my computer the grief of calculating more than 2,000 samples for this one graph, though.
+        \end{note}
+    }
+
+    2 very important pieces of information can be derived from a given lemniscate curve function: the length of each petal, and the angle of the curve. The length of the petals is $n$. In the case of $\cos$, the curve is entirely horizontal. In the case of $sin$, the curve is at $45^{\circ}$. It gets flipped if the function is negative.
+
+    \ex{$\sin$ Case of a Lemniscate}{
+        \begin{center}
+            \begin{tikzpicture}
+                \begin{polaraxis}[
+                    axis lines = box
+                ]
+                    \addplot[
+                        red,
+                        domain=0:360,
+                        samples=2000,
+                        smooth,
+                        data cs=polar,
+                    ](x, {sqrt(9*sin(2*x))});
+                    \addlegendentry{$r^2=9\sin(2\theta)$};
+                \end{polaraxis}
+            \end{tikzpicture}
+        \end{center}
+    }
+
+    \section{Spirals of Archimedes}
+
+    \dfn{Spiral of Archimedes}{
+        A spiral of Archimedes function takes the form of $r=n\theta$.
+        \begin{center}
+            \begin{tikzpicture}
+                \begin{polaraxis}[
+                    axis lines = box
+                ]
+                    \addplot[
+                        red,
+                        domain=0:360,
+                        samples=200,
+                        smooth,
+                        data cs=polar,
+                    ](x, {x});
+                    \addlegendentry{$r=\theta$};
+                \end{polaraxis}
+            \end{tikzpicture}
+        \end{center}
+    }
+
+    Spirals are fairly simple. I don't think it takes much of an explanation.
+
+    \section{Symmetry of Polar Functions}
+
+    There are 3 kinds of symmetry polar functions can have:
+    \begin{itemize}
+        \item Symmetry across the line $\theta=\frac{\pi}{2}$
+        \item Symmetry across the polar axis
+        \item Symmetry about the pole
+    \end{itemize}
+
+    In order to determine if a function has each kind of symmetry, substitute $(r,\theta)$ for the following expressions and find whether or not the new equation is equivalent to the original function.
+    \begin{itemize}
+        \item For symmetry across the line $\theta=\frac{\pi}{2}$, use $(-r,-\theta)$ or $(r, \pi-\theta)$
+        \item For symmetry across the polar axis, use $(r,-\theta)$ or $(-r,\pi-\theta)$
+        \item For symmetry about the pole, use $(-r,\theta)$ or $(r,\pi+\theta)$
+    \end{itemize}
+
+    \ex{Symmetry of a Polar Function}{
+        \qs{}{Find the symmetry of the function $r^2=9\cos(2\theta)$}
+        \sol
+        \begin{itemize}
+            \item {
+                Symmetry across the line $\theta=\frac{\pi}{2}$
+
+                $(-r)^2=9\cos(-2\theta)$
+
+                $r^2=9\cos(2\theta)$
+
+                Yes
+            }
+            \item {
+                Symmetry across the polar axis
+
+                $r^2=9\cos(-2\theta)$
+
+                $r^2=9\cos(2\theta)$
+
+                Yes
+            }
+            \item {
+                Symmetry about the origin
+
+                $(-r)^2=9\cos(2\theta)$
+
+                $r^2=9\cos(2\theta)$
+
+                Yes
+            }
+    \end{itemize}
+
+    Looking at the graph below, we can see that all of these symmetries are correct.
+    \begin{center}
+        \begin{tikzpicture}
+            \begin{polaraxis}[
+                axis lines = box
+            ]
+                \addplot[
+                    red,
+                    domain=0:360,
+                    samples=2000,
+                    smooth,
+                    data cs=polar,
+                ](x, {sqrt(9*cos(2*x))});
+                \addlegendentry{$r^2=9\cos(2\theta$)};
+            \end{polaraxis}
+        \end{tikzpicture}
+    \end{center}
     }
 \end{document}

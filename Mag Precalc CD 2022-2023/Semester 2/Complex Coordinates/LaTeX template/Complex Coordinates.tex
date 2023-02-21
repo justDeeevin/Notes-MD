@@ -1,0 +1,27 @@
+\documentclass{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+\title{\Huge{Some Class}\\Random Examples}
+\author{\huge{Devin D. Droddy}}
+\date{}
+
+\begin{document}
+
+\maketitle
+\newpage% or \cleardoublepage
+% \pdfbookmark[<level>]{<title>}{<dest>}
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
+\pagebreak
+
+\chapter{}
+\section{}
+Polar coordinates on the complex plain can be represented as a complex number. Any polar point $(r,\theta)$ can be represented as $r(\cos(\theta) + \sin(\theta))$, or $r\cis(\theta)$. Complex numbers are generally written as $z=...$.
+
+The multiplication rule says that for any two complex points, $z_1$ and $z_2$, written as $z=r(\cis(\theta))$, $z_1z_2=r_1r_2\cis(\theta_1+\theta_2)$. Conversely, $\frac{z_1}{z_2}=\frac{r_1}{r_2}\cis(\theta_1-\theta_2)$
+
+DeMoivre's Theorem is that $z^n=(r\cis(\theta))^n=r^n\cis(n\theta)$
+\end{document}

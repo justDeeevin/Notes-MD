@@ -1,0 +1,44 @@
+\documentclass{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+\title{\Huge{Magnet Precalculus CD}\\Vectors}
+\author{\huge{Devin D. Droddy}}
+\date{}
+
+\begin{document}
+
+\maketitle
+\newpage% or \cleardoublepage
+% \pdfbookmark[<level>]{<title>}{<dest>}
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
+\pagebreak
+
+\chapter{Geometric Representation of Vectors}
+
+\section{Combination }
+
+\section{Magnitude of Vectors}
+
+The magnitude (length) of a vector $v=\left\langle a,b \right\rangle$ is $||v||=\sqrt{a^2+b^2}$. If vector $v$ is represented by the arrow from $(x_1,y_1)$ to $(x_2,y_2)$, then $||v||=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$.
+
+\section{Unit Vector}
+
+\dfn{Unit Vector}{
+	A vector $u$ for which $||u||=1$ is called a \textbf{unit vector}.
+
+	\begin{center}
+		$u=\frac{v}{||v||}$
+
+		$i=\left\langle 1,0 \right\rangle$ and $j=\left\langle 0,1 \right\rangle$
+	\end{center}
+}
+
+\section{Components of a Vector}
+
+Let $v$ be a vector with magnitude $||v||$ and direction $\theta$. Then, $v=\left\langle a,b \right\rangle=ai+bj$ where $a=||v||\cos(\theta)$ and $b=||v||\sin(\theta)$. Therefore, we can express $v$ as $v=||v||\cos(\theta)i+||v||\sin(\theta)j$
+
+\end{document}

@@ -50,4 +50,30 @@ Generally in Magnet Precalculus, you'll be asked to find a unit vector in the sa
 
 Let $v$ be a vector with magnitude $||v||$ and direction $\theta$. Then, $v=\left\langle a,b \right\rangle=ai+bj$ where $a=||v||\cos(\theta)$ and $b=||v||\sin(\theta)$. Therefore, we can express $v$ as $v=||v||\cos(\theta)i+||v||\sin(\theta)j$
 
+\chapter{The Language of Vectors}
+
+\section{The Dot Product}
+
+\dfn{Dot Product}{
+	A \textbf{\ul{dot product}} of $u=\left\langle a_1,b_1 \right\rangle$ and $v=\left\langle a_2,b_2 \right\rangle$ is $u \bullet v=a_1a_2+b_1b_2$
+}
+
+Another form of the dot product is $u \bullet v=||u||||v||\cos(\theta)$, where $\theta$ is the angle between $u$ and $v$.\\
+
+To find the angle between two vectors, the dot product can be used:
+
+Let $\theta$ be the angle between two vectors, $u$ and $v$. Where $0\le\theta\le\pi$, $\cos(\theta)=\frac{u \bullet v}{||u||||v||}$\\
+
+The dot product can be used to find the magnitude of a vector. $||u||=u \bullet u=u^2$
+
+\dfn{Orthogonal Vectors}{
+	When two angles are orthogonal (a.k.a. perpendicular or normal), their dot product is 0.
+}
+
+\qs{}{
+	Find the angle between the vectors $u=2i-j$ and $v=6i+4j$
+}
+
+\sol $\cos(\theta)=\frac{(2 \bullet 6)+(-1 \bullet 4)}{\sqrt{2^2+(-1)^2}\bullet\sqrt{6^2+4^2}}=\frac{12-4}{\sqrt{5}\bullet\sqrt{52}}=\frac{8}{\sqrt{260}}=\frac{8}{2\sqrt{65}};\theta=\cos^{-1}(\frac{8}{1\sqrt{65}})\approx \boxed{60.255^\circ}$
+
 \end{document}

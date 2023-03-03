@@ -21,7 +21,7 @@ How does a nucleotide become a nucleic acid? First of all, know that a nucleotid
     - Guanine
     - Cytosine
     - Thymine
-    -Uracil
+    - Uracil
 
 ## Naming and Numbering
 
@@ -35,4 +35,4 @@ Erwin Chargaff noticed something when he was studying DNA.
 
 The percentage of *purine* nucleotides (adenine and guanine) in a DNA sample was almost ~50%. The other ~50% of the sample was complsed of *pyrimidine* nucleotides (cytosine and thymine). The percentage of *adenine* nucleotides was approximately equal to the percentage of *thymine* nucleotides. At the same time, the percentage of *cytosine* and *guanine* were about equal.
 
-Nucleotides bond at their base pair using hydrogen bonds.
+Nucleotides bond at their base pair using hydrogen bonds. Purines always bond with their corresponding pyrimidines. The accrostic "Apple trees cars garage" (weird, I know) can be used to remember the nucleotide associations. A pairs with T and C bonds with G.

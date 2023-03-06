@@ -4,7 +4,7 @@
 \input{macros}
 \input{letterfonts}
 
-\title{\Huge{Magnet Precalculus CD}\\Parametric Equations}
+\title{\Huge{Magnet Precalculus CD}Parametric Equations}
 \author{\huge{Devin D. Droddy}}
 \date{}
 
@@ -21,5 +21,100 @@
 \section{Intro to Parametric Equations}
 
 We can represent the combination of multiple functions on one 2d plane by defining both $x$ and $y$ in terms of a parameter, often $t$. These two equations are known as parametric equations. When graphing parametric equations, you should draw arrows between the points you plot, in the direction that $t$ is moving.
+
+% \ex{Plotting a Parametric Equation}{
+%     $x=t^2;y=3t-2;-2\le t\le 4$
+%     \begin{tabular}{|c|c|c|}
+%         \hline 
+%         t & x & y 
+%         \hline 
+%         -2 & 4 & -8 
+%         \hline 
+%         -1 & 1 & -5 
+%         \hline 
+%         0 & 0 & -2
+%         \hline 
+%         1 & 1 & 1 
+%         \hline 
+%         2 & 4 & 4
+%         \hline 
+%         3 & 9 & 7 
+%         \hline 
+%         4 & 16 & 10 
+%         \hline 
+%     \end{tabular}
+%     \begin{center}
+%         % \begin{tikzpicture}
+%            
+%         % \end{tikzpicture}
+%     \end{center}
+% }
+
+\section{Parametric Equations in Rectangular Form}
+
+To put a parametric equation in rectangular form, solve one of the equations for t, substitute the resulting expression into the other equation, and simplify.
+
+\qs{Write the following pair of parametric equations in rectangular form.}{
+    $x=4t-1$
+
+    $y=6-t$
+}
+
+$t=6-y$
+
+$x=4(6-y)-1=24-4y-1=23-4y$
+
+$x-23=-4y$
+
+$\boxed{y=\frac{-x+23}{4}}$
+
+\qs{Write the following pair of parametric equations in rectangular form.}{
+    $x=\frac{t+2}{t}$
+
+    $y=\frac{1}{t}$
+}
+
+$t=\frac{1}{y}$
+
+$x=\frac{\frac{1}{y}+2}{\frac{1}{y}}=\frac{\frac{1}{y}}{\frac{1}{y}}+\frac{2}{\frac{1}{y}}=1+\frac{2}{\frac{1}{y}}=1+2y$
+
+$x-1=2y$
+
+$\boxed{y=\frac{x-1}{2}}$
+
+
+\section{Polar \& Parametric Equations}
+
+The graph of a polar equation $r=f(\theta)$ is the same as the graph of the parametric equations $x=f(\theta)\cos(\theta)$ and $y=f(\theta)\sin(\theta)$.
+
+\qs{Write the following pair of parametric equations in rectangular form}{
+    $x=3\cos(\theta)$
+
+    $y=2\sin(\theta)$
+}
+
+$\cos(\theta)=\frac{x}{3}$
+
+$\cos^2(\theta)=\frac{x^2}{9}$
+
+$\sin(\theta)=\frac{y}{2}$
+
+$\sin^2(\theta)=\frac{y^2}{4}$
+
+$\sin^2(\theta)+\cos^2(\theta)=1$
+
+$\boxed{\frac{x^2}{9}+\frac{y^2}{4}=1}$
+
+\qs{Write the following pair of parametric equations in rectangular form}{
+    $x=\sin^2(\theta)$
+
+    $y=4\cos(\theta)$
+}
+
+$\cos(\theta)=\frac{y}{4}$
+
+$\cos^2(\theta)=\frac{y^2}{16}$
+
+$\boxed{x+\frac{y^2}{16}=1}$
 
 \end{document}

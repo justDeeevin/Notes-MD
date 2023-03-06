@@ -2,7 +2,7 @@
 
 - *Chromosome*: supercoiled DNA and protein structure
 - *Chromatid*: one half of a duplicated chromosome
-    - The pari of chromatids are called *sister chroatids*
+    - The pair of chromatids are called *sister chroatids*
 - *Centromere*: the area where isster chromatids are still connected
 - *Telomeres*: the ends of the chromatids
 - *Homologous Chromosomes*: a pair of chromosomes that have the same genes in the same locations

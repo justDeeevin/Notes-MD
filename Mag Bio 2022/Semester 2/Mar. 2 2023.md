@@ -2,8 +2,8 @@
 
 - *Chromosome*: supercoiled DNA and protein structure
 - *Chromatid*: one half of a duplicated chromosome
-    - The pair of chromatids are called *sister chroatids*
-- *Centromere*: the area where isster chromatids are still connected
+    - The pair of chromatids are called *sister chromatids*
+- *Centromere*: the area where sister chromatids are still connected
 - *Telomeres*: the ends of the chromatids
 - *Homologous Chromosomes*: a pair of chromosomes that have the same genes in the same locations
 - *Heterologous Chromosomes*: a pair of chromosomes that have different genes in the same locations
@@ -33,6 +33,6 @@ Nucleotides are named after the nitrogenous bases, and when they exist individua
 
 Erwin Chargaff noticed something when he was studying DNA.
 
-The percentage of *purine* nucleotides (adenine and guanine) in a DNA sample was almost ~50%. The other ~50% of the sample was complsed of *pyrimidine* nucleotides (cytosine and thymine). The percentage of *adenine* nucleotides was approximately equal to the percentage of *thymine* nucleotides. At the same time, the percentage of *cytosine* and *guanine* were about equal.
+The percentage of *purine* nucleotides (adenine and guanine) in a DNA sample was almost ~50%. The other ~50% of the sample was composed of *pyrimidine* nucleotides (cytosine and thymine). The percentage of *adenine* nucleotides was approximately equal to the percentage of *thymine* nucleotides. At the same time, the percentage of *cytosine* and *guanine* were about equal.
 
-Nucleotides bond at their base pair using hydrogen bonds. Purines always bond with their corresponding pyrimidines. The accrostic "Apple trees cars garage" (weird, I know) can be used to remember the nucleotide associations. A pairs with T and C bonds with G.
+Nucleotides bond at their base pair using hydrogen bonds. Purines always bond with their corresponding pyrimidines. The acrostic "Apple trees cars garage" (weird, I know) can be used to remember the nucleotide associations. A pairs with T and C bonds with G.

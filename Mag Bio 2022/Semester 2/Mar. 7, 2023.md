@@ -29,3 +29,19 @@ Ligase is the last enzyme in the process of DNA replication. It facilitates the 
 ## Separase
 
 Separase comes into play between the metaphase and the anaphase of mitosis. It separates sister chromatids into individual ones. Should it fail, the sister chromatids will not separate. This will cause Aneuploidy, where one daughter cell has too little genetic material and the other has too much.
+
+## Differences between RNA and DNA
+
+- DNA
+    - Double-strand
+    - T base
+    - Found in nucleus
+- RNA
+    - Single-strand
+    - U base
+- Both
+    - Made of nucleic acids
+    - Shared Bases
+        - A
+        - C
+        - G

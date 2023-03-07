@@ -4,7 +4,7 @@
 \input{macros}
 \input{letterfonts}
 
-\title{\Huge{Magnet Precalculus CD}Parametric Equations}
+\title{\Huge{Magnet Precalculus CD} \\ Parametric Equations}
 \author{\huge{Devin D. Droddy}}
 \date{}
 
@@ -116,5 +116,35 @@ $\cos(\theta)=\frac{y}{4}$
 $\cos^2(\theta)=\frac{y^2}{16}$
 
 $\boxed{x+\frac{y^2}{16}=1}$
+
+\section{Modeling Projectile Motion With Parametric Equations}
+
+Projectile motion can be modeled with parametric equations.
+
+\ex{Tennis Serve}{
+    A baseball player in the outfield throws a ball towards home plate. The ball leaves his hand at a height of 6.5 feet at an initial velocity of 110 feet per second.
+
+    \qs{}{
+        The ball is caught by the player at home plate after 1.8 seconds. If the ball traveled a horizontal distance of 191 feet, find the angle of elevation at which the ball was thrown.
+    }
+
+    $191=1.8 \cdot 110\cos(\theta)$
+
+    $\cos(\theta)=\frac{191}{1.8 \cdot 110}=\frac{191}{198}$
+
+    $\theta=\cos^{-1}(\frac{191}{198}) \approx 15.28$
+
+    \qs{}{
+        What was the height of the ball when it was caught by the player at home plate?
+    }
+
+    $x=110\cos(\theta)t$
+
+    $y=110\sin(\theta)t-\frac{gt^2}{2}$
+
+    $t=\frac{x}{110\cos(\theta)}$
+
+    $y=110\sin(\theta)\frac{x}{110\cos(\theta)}-\frac{\frac{gx^2}{12100cos^2(\theta)}}{2}=\frac{110\sin(\theta)x}{110\cos(\theta)}-\frac{gx^2}{24200\cos^2(\theta)}=x\tan(\theta)-\frac{gx^2}{24200\cos^2(\theta)}$
+}
 
 \end{document}

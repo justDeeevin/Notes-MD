@@ -55,18 +55,18 @@ Let $v$ be a vector with magnitude $||v||$ and direction $\theta$. Then, $v=\lef
 \section{The Dot Product}
 
 \dfn{Dot Product}{
-	A \textbf{\ul{dot product}} of $u=\left\langle a_1,b_1 \right\rangle$ and $v=\left\langle a_2,b_2 \right\rangle$ is $u \bullet v=a_1a_2+b_1b_2$
+	A \textbf{\ul{dot product}} of $u=\left\langle a_1,b_1 \right\rangle$ and $v=\left\langle a_2,b_2 \right\rangle$ is $u \cdot v=a_1a_2+b_1b_2$
 }
 
-Another form of the dot product is $u \bullet v=||u||||v||\cos(\theta)$, where $\theta$ is the angle between $u$ and $v$.\\
+Another form of the dot product is $u \cdot v=||u||||v||\cos(\theta)$, where $\theta$ is the angle between $u$ and $v$.\\
 
 To find the angle between two vectors, the dot product can be used:
 
-Let $\theta$ be the angle between two vectors, $u$ and $v$. Where $0\le\theta\le\pi$, $\cos(\theta)=\frac{u \bullet v}{||u||||v||}$\\
+Let $\theta$ be the angle between two vectors, $u$ and $v$. Where $0\le\theta\le\pi$, $\cos(\theta)=\frac{u \cdot v}{||u||||v||}$\\
 
 The dot product can be used to find the magnitude of a vector:
 
-$u=\left\langle a,b \right\rangle;||u||=\sqrt{a^2+b^2}=\sqrt{(a \bullet a)+(b \bullet b)}=\sqrt{u \bullet u}=\sqrt{u^2}$
+$u=\left\langle a,b \right\rangle;||u||=\sqrt{a^2+b^2}=\sqrt{(a \cdot a)+(b \cdot b)}=\sqrt{u \cdot u}=\sqrt{u^2}$
 
 \dfn{Orthogonal Vectors}{
 	When two angles are orthogonal (a.k.a. perpendicular or normal), their dot product is 0.
@@ -76,7 +76,7 @@ $u=\left\langle a,b \right\rangle;||u||=\sqrt{a^2+b^2}=\sqrt{(a \bullet a)+(b \b
 	Find the angle between the vectors $u=2i-j$ and $v=6i+4j$
 }
 
-\sol $\cos(\theta)=\frac{(2 \bullet 6)+(-1 \bullet 4)}{\sqrt{2^2+(-1)^2}\bullet\sqrt{6^2+4^2}}=\frac{12-4}{\sqrt{5}\bullet\sqrt{52}}=\frac{8}{\sqrt{260}}=\frac{8}{2\sqrt{65}};\theta=\cos^{-1}(\frac{8}{1\sqrt{65}})\approx \boxed{60.255^\circ}$
+\sol $\cos(\theta)=\frac{(2 \cdot 6)+(-1 \cdot 4)}{\sqrt{2^2+(-1)^2}\cdot\sqrt{6^2+4^2}}=\frac{12-4}{\sqrt{5}\cdot\sqrt{52}}=\frac{8}{\sqrt{260}}=\frac{8}{2\sqrt{65}};\theta=\cos^{-1}(\frac{8}{1\sqrt{65}})\approx \boxed{60.255^\circ}$
 
 \section{Projection of a Vector Onto Another}
 
@@ -98,11 +98,11 @@ The projection of one vector onto another can be thought of as finding the shado
 
 Here, vectors $u$ and $v$ start at the same point $P$. The projection of $u$ onto $v$ is $w_1$. If there were a light source pointing straight down, $w_1$ would the the shadow cast by $u$ on $v$. $w_2$ is defined as $u-w_1$, but by the nature of projection, it is also orthogonal to $v$.
 
-Projection is represtented mathematically as $\proj_v(u)$, where $u$ is being projected onto $v$. $\proj_vu=(\frac{u \bullet v}{v^2})v$
+Projection is represtented mathematically as $\proj_v(u)$, where $u$ is being projected onto $v$. $\proj_vu=(\frac{u \cdot v}{v^2})v$
 
 \qs{}{Find $\proj_v(u)$ where $u=\left\langle 4,2 \right\rangle$ and $v=\left\langle 1,2 \right\rangle$}
 
-\sol $\proj_v(u)=(\frac{u \bullet v}{v^2})v=\frac{(4 \bullet 1)+(2 \bullet 2)}{1^2+2^2}\left\langle 1,2 \right\rangle=\frac{4+4}{1+4}\left\langle 1,2 \right\rangle=\frac{8}{5}\left\langle 1,2 \right\rangle=\left\langle \frac{8}{5},\frac{16}{5} \right\rangle$
+\sol $\proj_v(u)=(\frac{u \cdot v}{v^2})v=\frac{(4 \cdot 1)+(2 \cdot 2)}{1^2+2^2}\left\langle 1,2 \right\rangle=\frac{4+4}{1+4}\left\langle 1,2 \right\rangle=\frac{8}{5}\left\langle 1,2 \right\rangle=\left\langle \frac{8}{5},\frac{16}{5} \right\rangle$
 \begin{center}
 	\begin{tikzpicture}
 		\draw[black, thick, ->] (0,0) -- (1,2);

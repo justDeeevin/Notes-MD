@@ -36,9 +36,12 @@ Separase comes into play between the metaphase and the anaphase of mitosis. It s
     - Double-strand
     - T base
     - Found in nucleus
+    - Stores genetic data
 - RNA
     - Single-strand
     - U base
+    - Found in the cytoplasm
+    - Transports genetic data
 - Both
     - Made of nucleic acids
     - Shared Bases

@@ -43,7 +43,7 @@ Separase comes into play between the metaphase and the anaphase of mitosis. It s
     - Found in the cytoplasm
     - Transports genetic data
 - Both
-    - Made of nucleic acids
+    - Made of nucleotides
     - Shared Bases
         - A
         - C

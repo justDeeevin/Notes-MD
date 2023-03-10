@@ -36,13 +36,16 @@ Separase comes into play between the metaphase and the anaphase of mitosis. It s
     - Double-strand
     - T base
     - Found in nucleus
-    - Stores genetic data
+    - Long-term storage
+    - Only one kind
 - RNA
     - Single-strand
     - U base
     - Found in the cytoplasm
-    - Transports genetic data
+    - Short-term storage
+    - Multiple kinds
 - Both
+    - Store genetic data
     - Made of nucleotides
     - Shared Bases
         - A

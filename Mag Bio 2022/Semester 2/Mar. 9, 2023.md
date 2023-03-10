@@ -43,4 +43,4 @@ After transcription, the RNA is edited to become one of three primary types of R
 
 ## Translation
 
-Translation is the process of converting genetic information into proteins.
+Translation is the process of converting genetic information into proteins. mRNA, rRNA, and tRNA all come together to link amino acids together to form proteins. Like any recipe, there is a "start with this step here" signal - in this case, it's the word, or ***codon***, AUG. There is also a "stop" signal for the end of the recipe.

@@ -19,6 +19,75 @@
 
 \chapter{}
 
+\section{Introduction to Matrices}
 
+\dfn{Matrix}{
+    A \textbf{matrix} is a rectangular array of variables or constants in rows or columns, usually enclosed in brackets. These constants or variables are known as \textbf{elements}.
+}
+
+\dfn{Element}{
+    An element is an individual value within a matrix. Given a matrix $A$, a given element in side of $A$ is notated as $A_{xy}$, where $x$ is the row and $y$ is the column in which the element is located.
+}
+
+\begin{note}
+    If either the width or height of a matrix is more than one digit, $x$ and $y$ in element notation are generally separated by a dash (e.g. $A_{10-4}$)
+\end{note}
+
+\ex{Find an Element of a Matrix}{
+    $
+        A=
+        \begin{bmatrix}
+            -8 & 40 & 0 & -1 & 21 \\
+            27 & 32 & -29 & 6 & -2 \\
+            5 & -7 & 14 & 52 & -35
+        \end{bmatrix}
+    $
+
+    $A_{12}=40$
+
+    $A_{34}=52$
+}
+
+\section{Summation of Matrices}
+
+Matrices can be summed \textbf{only if their dimensions are the same}. The process is as simple as summing all corresponding elements.
+
+\ex{Sum of Two Matrices}{
+    $
+        W=
+        \begin{bmatrix}
+            -1 & 9 \\
+            -11 & 15 \\
+            8 & -20
+        \end{bmatrix}
+    $
+
+    $
+        Z=
+        \begin{bmatrix}
+            -3 & -2 \\
+            -16 & 0 \\
+            12 & 9
+        \end{bmatrix}
+    $
+
+    $
+        W+Z=
+        \begin{bmatrix}
+            -4 & 7 \\
+            -27 & 15 \\
+            20 & -11
+        \end{bmatrix}
+    $
+
+    $
+        W-Z=
+        \begin{bmatrix}
+            2 & 11 \\
+            5 & 15 \\
+            -4 & -29
+        \end{bmatrix}
+    $
+}
 
 \end{document}

@@ -173,4 +173,79 @@ $
     $
 }
 
+\section{Determinant of a Matrix}
+
+Every square matrix has a real number that is its \textbf{determinant}. The determinant of matrix $A$ is denoted as $\det(A)$ or $|A|$.
+
+The determinant of a 2x2 matrix is called a \textbf{second-order determinant}. To find a second-order determinant, use the following formula:
+
+$
+    A=
+    \begin{bmatrix}
+        a & b \\
+        c & d
+    \end{bmatrix}
+$
+
+$|A|=ad-bc$
+
+\ex{Determinant of a 2x2 Matrix} {
+    $
+        A=
+        \begin{bmatrix}
+            -4 & 3 \\
+            5 & -10
+        \end{bmatrix}
+    $
+
+    $|A|=(-4 \cdot -10)-(5 \cdot 3)=40-15=25$
+}
+
+The determinant of a 3x3 matrix is called a \textbf{third-order} determinant. To find a third-order determinant, use the steps below:
+
+\begin{enumerate}
+    \item Rewrite the first two columns to the right of the matrix
+    \item Find the sum of the products of each downward diagonal
+    \item Find the sum of the products of each upward diagonal
+    \item Subtract the upward diagonal sum from the downward diagonal sum
+\end{enumerate}
+
+\ex{Determinant of a 3x3 Matrix} {
+    $
+        A=
+        \begin{bmatrix}
+            3 & -7 & 2 \\
+            5 & 4 & -5 \\
+            1 & 5 & -1
+        \end{bmatrix}
+    $
+
+    $   
+        \begin{bmatrix}
+            3 & -7 & 2 \\
+            5 & 4 & -5 \\
+            1 & 5 & -1
+        \end{bmatrix}
+        \begin{matrix}
+            3 & -7 \\
+            5 & 4 \\
+            1 & 5
+        \end{matrix}
+    $ \\
+
+    Downward diagonal one: $[3,4,-1]$ \\
+    Downward diagonal two: $[-7,-5,1]$ \\
+    Downward diagonal three: $[2,5,5]$ \\
+    
+    Upward diagonal one: $[1,4,2]$ \\
+    Upward diagonal two: $[5,-5,3]$ \\
+    Upward diagonal three: $[-1,5,-7]$ \\
+
+    $(3 \cdot 4 \cdot -1)+(-7 \cdot 5 \cdot 1)+(2 \cdot 5 \cdot 5)=-12-35+50=3$
+
+    $(1 \cdot 4 \cdot 2)+(5 \cdot -5 \cdot 3)+(-1 \cdot 5 \cdot -7)=8-75+35=-32$
+
+    $3+32=\boxed{35}$
+}
+
 \end{document}

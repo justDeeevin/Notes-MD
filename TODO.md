@@ -1,45 +1,48 @@
 # Todo
+
 ## School
+
 ### Upcoming
+
 ### Due
+
 ### Late
+
 ## Personal
+
 - [ ] Learn C++
 - [ ] Electrical components cleanup
     - [ ] Find somewhere to put em
     - [ ] Move em
 - [ ] Google Docs in VSCode
     - [ ] `.gdoc` filetype?
+
 ## Extracurricular Responsibilities
+
 - [ ] Lifesteal MC mod/plugin
-- [ ] RC Plane research
 
 # Doing
+
 ## School
+
 ### Upcoming
+
 ### Due
+
 ### Late
+
 ### Other
+
 - [ ] Book drive SSL sheet
+
 ## Personal
-- [ ] DALL-E search page
-    - [ ] Page design
-        - [x] Search bar
-        - [ ] Search button
-            - [x] Button
-            - [x] Styling
-            - [x] Ripple
-    - [x] Full item list
-        - [x] Image information
-        - [x] Image embed
-        - ~~Pages?~~
-    - [x] Search algorithm
-    - [ ] Different filter categories
-        - [ ] Date
+
 ## Extracurricular Responsibilities
 
 # Done
+
 ## School
+
 - [x] Gov. branches of power game
     - [x] Ask teacher about making up
     - [x] Finish
@@ -66,6 +69,24 @@
 - [x] English analysis final draft
     - [x] Finish
     - [x] Submit
+
 ## Personal
+
 - [x] Tidy clothes
+
+- [x] DALL-E search page
+    - [x] Page design
+        - [x] Search bar
+        - [x] Search button
+            - [x] Button
+            - [x] Styling
+            - [x] Ripple
+    - [x] Full item list
+        - [x] Image information
+        - [x] Image embed
+        - ~~Pages?~~
+    - [x] Search algorithm
+    - [x] Different filter categories
+        - [x] Date
+
 ## Extracurricular Responsibilities

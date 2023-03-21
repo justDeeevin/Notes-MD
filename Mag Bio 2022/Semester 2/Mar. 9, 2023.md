@@ -35,11 +35,12 @@ After transcription, the RNA is edited to become one of three primary types of R
 - tRNA
     - Transports amino acids to the ribosome
     - Have an "anticodon" to pair with codon on the mRNA
+    - Attached to the small rRNA subunit
     - 61 tRNAs
 - rRNA
     - Part of the physical ribosome structure
     - "reads" the mRNA and links together the amino acids brought by the tRNA
-    - Two subunits
+    - Two subunits - large and small
 
 ## Translation
 

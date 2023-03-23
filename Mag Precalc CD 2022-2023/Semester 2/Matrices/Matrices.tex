@@ -326,7 +326,9 @@ $A$ and $B$ are inverses.
 
 Not all matrices have an inverse. A matrix has no inverse if its determinant is 0.
 
-There is a formula to find the inverse of a matrix. Consider matrix 
+\section{Finding the Inverse of a 2x2 Matrix}
+
+There is a formula to find the inverse of a 2x2 matrix. If matrix 
 $
     A=
     \begin{bmatrix}
@@ -343,7 +345,7 @@ $
 $, 
 where $|A| \neq 0$.
 
-\ex{Finding the Inverse of a Matrix}{
+\ex{Finding the Inverse of a 2x2 Matrix}{
     $
         A=
         \begin{bmatrix}
@@ -367,6 +369,183 @@ where $|A| \neq 0$.
         \end{bmatrix}
     $
 }
+
+\section{Finding the Inverse of a 3x3 Matrix}
+
+Consider some 3x3 matrix 
+$
+    A=
+    \begin{bmatrix}
+        a & b & c \\
+        d & e & f \\
+        g & h & i
+    \end{bmatrix}
+$. 
+The following steps can be taken to find its inverse.
+
+\begin{enumerate}
+    \item Find the determinant of the matrix
+    \item Transpose the original matrix. All rows become columns
+    \item Place the determinants of each 2x2 minor matrix in a matrix $B$. The matrix at $B_{nm}$ is $A$ with row $n$ and column $m$ removed. For instance, 
+    $
+        B_{11}=
+        \begin{bmatrix}
+            A_{22} & A_{23} \\
+            A_{32} & A_{33}
+        \end{bmatrix}
+    $.
+
+    In this case, 
+    $
+        B=
+        \begin{bmatrix}
+            \begin{vmatrix}
+                e & f \\
+                h & i
+            \end{vmatrix}
+            &
+            \begin{vmatrix}
+                d & f \\
+                g & i
+            \end{vmatrix}
+            &
+            \begin{vmatrix}
+                d & e \\
+                g & h
+            \end{vmatrix}
+            \\
+            \begin{vmatrix}
+                b & c \\
+                h & i
+            \end{vmatrix}
+            &
+            \begin{vmatrix}
+                a & c \\
+                g & i
+            \end{vmatrix}
+            &
+            \begin{vmatrix}
+                a & b \\
+                g & h
+            \end{vmatrix}
+            \\
+            \begin{vmatrix}
+                b & c \\
+                e & f
+            \end{vmatrix}
+            &
+            \begin{vmatrix}
+                a & c \\
+                d & f
+            \end{vmatrix}
+            &
+            \begin{vmatrix}
+                a & b \\
+                d & e
+            \end{vmatrix}
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+            ei-hf & di-gf & dh-ge \\
+            bi-hc & ai-gc & ah-gb \\
+
+        \end{bmatrix}
+    $
+    \item Create the adjugate matrix denoted
+    $
+        \Adj(A)=A \cdot 
+        \begin{bmatrix}
+            1 & -1 & 1 \\
+            -1 & 1 & -1 \\
+            1 & -1 & 1
+        \end{bmatrix}
+    $
+    \item Divide each term of the adjugate matrix by the determinant
+\end{enumerate}
+
+\section{Cramer's Rule}
+
+Cramer's Rule, named after the Swiss mathematician Gabriel Cramer, uses the coefficient matrix and determinants to solve a system of linear equations. It is as follows:
+
+Given 
+$
+    \begin{cases}
+        ax+by=e \\
+        cx+dy=f
+    \end{cases}
+$, 
+let 
+$
+    A=
+    \begin{bmatrix}
+        a & b \\
+        c & d
+    \end{bmatrix}
+$ 
+(the coefficient matrix). If $|A|=0$, then the system has a unique solution given by
+$
+    x=\frac{
+        \begin{vmatrix}
+            e & b \\
+            f & d
+        \end{vmatrix}
+    }{|A|}
+$ 
+and
+$
+    y=\frac{
+        \begin{vmatrix}
+            a & e \\
+            c & f
+        \end{vmatrix}
+    }{|A|}
+$.
+
+Cramer's rule also applies to 3x3 matrices.
+
+Given 
+$
+    \begin{cases}
+        ax+by+cz=j \\
+        dx+ey+fz=k \\
+        gx+hy+iz=l
+    \end{cases}
+$, let 
+$
+    A=
+    \begin{bmatrix}
+        a & b & c \\
+        d & e & f \\
+        g & h & i
+    \end{bmatrix}
+$ (the coefficient matrix). If $|A|=0$, then the system has a unique solution given by 
+$
+    x=\frac{
+        \begin{vmatrix}
+            j & b & c \\
+            k & e & f \\
+            l & h & i
+        \end{vmatrix}
+    }{|A|}
+$, 
+$
+    x=\frac{
+        \begin{vmatrix}
+            a & j & c \\
+            d & k & f \\
+            g & l & i
+        \end{vmatrix}
+    }{|A|}
+$, and 
+$
+    x=\frac{
+        \begin{vmatrix}
+            a & b & j \\
+            d & e & k \\
+            g & h & l
+        \end{vmatrix}
+    }{|A|}
+$.
 
 \chapter{Applications of Matrices}
 

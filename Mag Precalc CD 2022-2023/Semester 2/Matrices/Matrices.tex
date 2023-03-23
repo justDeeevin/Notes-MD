@@ -448,16 +448,26 @@ The following steps can be taken to find its inverse.
         \begin{bmatrix}
             ei-hf & di-gf & dh-ge \\
             bi-hc & ai-gc & ah-gb \\
-
+            bf-ec & af-dc & ae-db
         \end{bmatrix}
     $
-    \item Create the adjugate matrix denoted
+    \item Create the adjugate matrix, denoted
     $
-        \Adj(A)=A \cdot 
+        \Adj(B)=B \cdot 
         \begin{bmatrix}
             1 & -1 & 1 \\
             -1 & 1 & -1 \\
             1 & -1 & 1
+        \end{bmatrix}
+    $
+
+    In this case, 
+    $
+        \Adj(B)=
+        \begin{bmatrix}
+            ei-hf & gf-di & dh-ge \\
+            hc-bi & ai-gc & gb-ah \\
+            bf-ec & dc-af & ae-db
         \end{bmatrix}
     $
     \item Divide each term of the adjugate matrix by the determinant

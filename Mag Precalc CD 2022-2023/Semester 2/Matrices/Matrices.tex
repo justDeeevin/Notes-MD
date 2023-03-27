@@ -17,9 +17,7 @@
 \tableofcontents
 \pagebreak
 
-\chapter{Matrices}
-
-\section{Introduction to Matrices}
+\chapter{Introduction to Matrices}
 
 \dfn{Matrix}{
     A \textbf{matrix} is a rectangular array of variables or constants in rows or columns, usually enclosed in brackets. These constants or variables are known as \textbf{elements}.
@@ -556,6 +554,131 @@ $
         \end{vmatrix}
     }{|A|}
 $.
+
+\section{Matrix Equation}
+
+A system of linear equations can be written as a matrix equation:
+
+\begin{center}
+    $
+        \begin{cases}
+            ax+by=e \\
+            cx+dy=f
+        \end{cases}
+        \rightarrow
+        \begin{bmatrix}
+            a & b \\
+            c & d
+        \end{bmatrix}
+        \cdot
+        \begin{bmatrix}
+            x \\
+            y
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+            e \\
+            f
+        \end{bmatrix}
+    $
+
+    $\therefore$
+
+    $
+        \begin{bmatrix}
+            a & b \\
+            c & d
+        \end{bmatrix}^{-1}
+        \cdot
+        \begin{bmatrix}
+            e \\
+            f
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+            x \\
+            y
+        \end{bmatrix}
+    $
+\end{center}
+
+\ex{Using an Inverse Matrix to Solve a System of Equations}{
+    $
+        \begin{cases}
+            6x+8y=-16 \\
+            5x+3y=-28
+        \end{cases}
+    $
+
+    $
+        A=
+        \begin{bmatrix}
+            6 & 8 \\
+            5 & 3
+        \end{bmatrix}^{-1}
+    $
+
+    $|A|=(6 \cdot 3)-(5 \cdot 8)=18-40=-22$
+
+    $
+        A^{-1}=
+        \frac{1}{|A|}
+        \begin{bmatrix}
+            3 & -8 \\
+            -5 & 6
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+            \frac{3}{-22} & \frac{8}{22} \\
+            \frac{5}{22} & \frac{6}{-22}
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+            \frac{3}{-22} & \frac{4}{11} \\
+            \frac{5}{22} & \frac{3}{-11}
+        \end{bmatrix}
+    $
+
+    $
+        B=
+        \begin{bmatrix}
+            -16 \\
+            -28
+        \end{bmatrix}
+    $
+
+    $
+        A^{-1} \cdot B =
+        \begin{bmatrix}
+            x \\
+            y
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+            \frac{3 \cdot -16}{-22} + \frac{4 \cdot -28}{11} \\
+            \frac{5 \cdot -16}{22} + \frac{3 \cdot -28}{-11}
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+            \frac{24}{11} + \frac{-112}{11} \\
+            \frac{-40}{11} + \frac{84}{11}
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+            \frac{-88}{11} \\
+            \frac{44}{11}
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+            -8 \\
+            4
+        \end{bmatrix}
+    $
+
+    $x=-8$
+
+    $y=4$
+}
 
 \chapter{Applications of Matrices}
 

@@ -680,6 +680,62 @@ A system of linear equations can be written as a matrix equation:
     $y=4$
 }
 
+\ex{3rd-Degree System of Equations Solved With Matrices}{
+    \[
+        \begin{cases}
+            -x+5y-3z=-40 \\
+            7x-2y-z=27 \\
+            -2x-y+6z=-5
+        \end{cases}
+    \]
+
+    \[
+        \begin{bmatrix}
+            -1 & 5 & -3 \\
+            7 & -2 & -1 \\
+            -2 & -1 & 6
+        \end{bmatrix}^{-1}
+        \cdot
+        \begin{bmatrix}
+            -40 \\
+            27 \\
+            -5
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+            x \\
+            y \\
+            z
+        \end{bmatrix}
+    \]
+
+    \[
+        \begin{vmatrix}
+            -1 & 5 & -3 \\
+            7 & -2 & -1 \\
+            -2 & -1 & 6
+        \end{vmatrix}
+        =
+        (12+10+21)-(-12-1+210)=43-197=-154
+    \]
+
+    \[
+        \begin{bmatrix}
+            -1 & 5 & -3 \\
+            7 & -2 & -1 \\
+            -2 & -1 & 6
+        \end{bmatrix}^{-1}
+    \]
+
+    \[
+        \begin{bmatrix}
+            -1 & 7 & -2 \\
+            5 & -2 & -1 \\
+            -3 & -1 & 6
+        \end{bmatrix}
+    \]
+}
+
 \chapter{Applications of Matrices}
 
 \section{Area of a Triangle}

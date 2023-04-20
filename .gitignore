@@ -8,3 +8,4 @@
 *.toc
 *.synctex*
 *.gnuplot
+*.DS_Store

@@ -1,0 +1,57 @@
+\documentclass{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+\title{\Huge{Magnet Precalculus D\\Combinatorics}}
+\author{\huge{Devin D. Droddy}}
+\date{}
+
+\begin{document}
+
+\maketitle
+\newpage% or \cleardoublepage
+% \pdfbookmark[<level>]{<title>}{<dest>}
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
+\pagebreak
+
+\chapter{Intro to Combinatorics}
+
+\section{Counting}
+
+If decision $M$ can be made in $x$ number of ways and decision $N$ can be made in $y$ number of ways, then the number of ways to make both decisions is $x \cdot y$.
+
+\ex{Counting}{
+	The ice cream shop offers a choice of a 3 cone sizes, 15 flavors, and 8 toppings. How many cones are possible if you can only choose one flavor and one topping?
+
+	\[3 \cdot 15 \cdot 8 = 360\]
+
+	There are 360 cones possible.
+}
+
+\section{Factorials}
+
+\dfn{Factorial}{
+	A factorial of some number $n$, denoted as $n!$, is the product of all natural numbers from 1 to $n$. For example, $5! = 5 \cdot 4 \cdot 3 \cdot 2 \cdot 1 = 120$.
+}
+
+\section{Permutations}
+
+\dfn{Permutation}{
+	A permutation of objects, denoted as $_nP_r$, is an arrangement of $r$ objects chosen from a set of $n$ objects. The number of possible permutations of size $r$ is denoted as $_nP_r = \frac{n!}{(n-r)!}$.
+}
+
+\nt{$0! = 1$. This means that if $n=r$, then $_nP_r=n!$, since $n-r=0$, so $\frac{n!}{(n-r)!}=\frac{n!}{0!}=n!$.}
+
+\ex{Permutation}{
+	There are 16 players on the baseball team. How many ways can the coach make a 9-player batting order?
+
+	\[n=16 \\
+	r=9\\
+	_nP_r=_{16}P_9=\frac{16!}{(16-9)!}=\frac{16!}{7!}=\frac{16!}{5040}=\frac{20922789888000}{5040}=4151347200\]\\
+	There are 4,151,347,200 ways to make a 9-player batting order.
+}
+
+\end{document}

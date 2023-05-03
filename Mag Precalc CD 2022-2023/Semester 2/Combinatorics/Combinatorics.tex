@@ -48,10 +48,192 @@ If decision $M$ can be made in $x$ number of ways and decision $N$ can be made i
 \ex{Permutation}{
 	There are 16 players on the baseball team. How many ways can the coach make a 9-player batting order?
 
-	\[n=16 \\
-	r=9\\
-	_nP_r=_{16}P_9=\frac{16!}{(16-9)!}=\frac{16!}{7!}=\frac{16!}{5040}=\frac{20922789888000}{5040}=4151347200\]\\
+	\[
+		n=16 \\
+		r=9\\
+		_nP_r=_{16}P_9=\frac{16!}{(16-9)!}=\frac{16!}{7!}=\frac{16!}{5040}=\frac{20922789888000}{5040}=4151347200\]\\
 	There are 4,151,347,200 ways to make a 9-player batting order.
 }
+
+\section{Combinations}
+
+\dfn{Combination}{
+	A combination of objects, denoted as $_nC_r$, is a selection of $r$ objects chosen from a set of $n$ objects. The number of possible combinations of size $r$ is denoted as $_nC_r = \frac{n!}{r!(n-r)!}$. \textbf{This is different from a permutation because you can have multiple of the same object.}
+}
+
+\chapter{Theoretical Probability}
+
+\section{Intro to Probability}
+
+Probability is the measure of how likely an event is to occur. The set of all possible outcomes is called the \textbf{sample space}. For equally likely outcomes, the probability of an event $E$ is given by the formula $P(E)=\frac{\text{number of outcomes in }E}{\text{number of outcomes in the sample space}}$.
+
+\ex{Simple Event}{
+	A jar contains 32 red marbles and 28 blue marbles. The probability that a randomly selected marble is red is $\frac{32}{32+28}=\frac{32}{60}=\frac{8}{15}$.
+}
+
+\section{Compound Events}
+
+A compound event is an event that consists of two or more simple events. There are two kinds of compound events: \textbf{independent} and \textbf{dependent}. A compound event is independent when the outcome of one event does not affect the outcome of the other event. A compound event is dependent when the outcome of one event does affect the outcome of the other event. In both cases, the probability of a compound event is the product of the probabilities of the simple events.
+
+\ex{Independent Event}{
+	A jar contains 32 red marbles and 28 blue marbles. If you select a marble, replace it, and then select another marble, the probability that both marbles are red is $\frac{32}{60} \cdot \frac{32}{60} = \frac{1024}{3600} = \frac{256}{900}$.
+}
+
+\ex{Dependent Event}{
+	A jar contains 32 red marbles and 28 blue marbles. If you select a marble, do not replace it, and then select another marble, the probability that both marbles are red is $\frac{32}{60} \cdot \frac{31}{59} = \frac{992}{3540} = \frac{248}{885}$.
+}
+
+\nt{In the dependent event example, the effect of the first event is that the sample space is reduced by one.}
+
+\chapter{Venn Diagrams}
+
+This is a venn diagram:
+
+\def\circleA{(180:1.75cm) circle (2.5cm)}
+\def\circleB{(0:1.75cm) circle (2.5cm)}
+\def\rectangleU{(5,-3) rectangle (-5,3)}
+\def\circleAthree{(150:1.75cm) circle (2.5cm)}
+\def\circleBthree{(30:1.75cm) circle (2.5cm)}
+\def\circleCthree{(270:1.75cm) circle (2.5cm)}
+\def\rectangleUthree{(5,-5) rectangle (-5,5)}
+\begin{tikzpicture}
+	\draw \rectangleU;
+	\draw \circleA node {$A$};
+	\draw \circleB node {$B$};
+\end{tikzpicture}
+
+You can specify many different areas within the diagram, such as only where $A$ and $B$ overlap, or everywhere other than $A$. There is standard mathematical notation to represent these areas.
+
+\section{Basic Venn Diagram Notation}
+
+First, $\cup$, the \textbf{or} operator. This is the union of two sets, or the area where either $A$ or $B$ is true.
+
+\begin{tikzpicture}
+	\fill[gray] \circleA;
+	\fill[gray] \circleB;
+	\draw \rectangleU;
+	\draw \circleA node {$A$};
+	\draw \circleB node {$B$};
+	\draw node at (0,3.5) {\large{$A \cup B$}};
+\end{tikzpicture}
+
+\pagebreak
+
+Second is $\cap$, the \textbf{and} operator. This is the intersection of two sets, or the area where both $A$ and $B$ are true.
+
+\begin{tikzpicture}
+	\begin{scope}
+		\clip \circleA;
+		\fill[gray] \circleB;	
+	\end{scope}
+	\draw \rectangleU;
+	\draw \circleA node {$A$};
+	\draw \circleB node {$B$};
+	\draw node at (0,3.5) {\large{$A \cap B$}};
+\end{tikzpicture}
+
+Finally, $A^c$, also written as $A'$, the \textbf{complement} of $A$. This is also known as the \textbf{not} operator. This is the area where $A$ is false.
+
+\begin{tikzpicture}
+	\fill[gray] \rectangleU;
+	\fill[white] \circleA;
+	\draw \rectangleU;
+	\draw \circleA node {$A$};
+	\draw \circleB node {$B$};
+	\draw node at (0,3.5) {\large{$A^c$}};
+\end{tikzpicture}
+
+\pagebreak
+
+\section{Combining Venn Diagram Notation}
+
+You can combine these operators to create more complex areas. For example, $A \cap B^c$ is the area where $A$ is true and $B$ is false.
+
+\begin{tikzpicture}
+	\fill[gray] \circleA;
+	\begin{scope}
+		\clip \circleA;
+		\fill[white] \circleB;
+	\end{scope}
+	\draw \rectangleU;
+	\draw \circleA node {$A$};
+	\draw \circleB node {$B$};
+	\draw node at (0,3.5) {\large{$A \cap B^c$}};
+\end{tikzpicture}
+
+\section{Venn Diagram Examples}
+
+\begin{tikzpicture}
+	\fill[gray] \rectangleU;
+	\fill[white] \circleA;
+	\fill[white] \circleB;
+	\draw \rectangleU;
+	\draw \circleA node {$A$};
+	\draw \circleB node {$B$};
+	\draw node at (0,3.5) {\large{$(A \cap B)^c$}};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+	\fill[gray] \rectangleUthree;
+	\fill[white] \circleBthree;
+	\fill[gray] \circleAthree;
+	\fill[gray] \circleCthree;
+	\draw \rectangleUthree;
+	\draw \circleAthree node {$A$};
+	\draw \circleBthree node {$B$};
+	\draw \circleCthree node {$C$};
+	\draw node at (0, 5.5) {\large{$((A \cup C)^c \cap B)^c$}};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+	\fill[gray] \circleAthree;
+	\fill[gray] \circleBthree;
+	\fill[white] \circleCthree;
+	\draw \rectangleUthree;
+	\draw \circleAthree node {$A$};
+	\draw \circleBthree node {$B$};
+	\draw \circleCthree node {$C$};
+	\draw node at (0, 5.5) {\large{$C^c \cap (A \cup B)$}};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+	\fill[gray] \circleCthree;
+	\fill[white] \circleAthree;
+	\fill[gray] \circleBthree;
+	\draw \rectangleUthree;
+	\draw \circleAthree node {$A$};
+	\draw \circleBthree node {$B$};
+	\draw \circleCthree node {$C$};
+	\draw node at (0, 5.5) {\large{$(C \cap A^c) \cup B$}};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+	\fill[gray] \rectangleUthree;
+	\fill[white] \circleBthree;
+	\fill[gray] \circleAthree;
+	\fill[white] \circleCthree;
+	\draw \rectangleUthree;
+	\draw \circleAthree node {$A$};
+	\draw \circleBthree node {$B$};
+	\draw \circleCthree node {$C$};
+	\draw node at (0, 5.5) {\large{$(A \cap C^c) \cup (B \cup C)^c$}};
+\end{tikzpicture}
+
+\begin{tikzpicture}
+	\fill[gray] \rectangleUthree;
+	\begin{scope}
+		\clip \circleAthree;
+		\fill[white] \circleBthree;
+	\end{scope}
+	\begin{scope}
+		\clip \circleBthree;
+		\fill[white] \circleCthree;
+	\end{scope}
+	\draw \rectangleUthree;
+	\draw \circleAthree node {$A$};
+	\draw \circleBthree node {$B$};
+	\draw \circleCthree node {$C$};
+	\draw node at (0, 5.5) {\large{$((A \cap B) \cup (B \cap C))^c$}};
+\end{tikzpicture}
 
 \end{document}

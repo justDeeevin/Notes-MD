@@ -1,0 +1,47 @@
+\documentclass{report}
+
+\input{preamble}
+\input{macros}
+\input{letterfonts}
+
+\title{\Huge{Some Class}\\Random Examples}
+\author{\huge{Devin D. Droddy}}
+\date{}
+
+\begin{document}
+
+\maketitle
+\newpage% or \cleardoublepage
+% \pdfbookmark[<level>]{<title>}{<dest>}
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
+\pagebreak
+
+\chapter{}
+
+\section{Intro to Conditional Probability}
+
+Conditional probability is a probability that changes when new information is given. The probability of event $A$, knowing that event $B$ has ocurred is known as the probability of $A$ \textit{given} $B$, denoted as $P(A|B)$. The formula for conditional probability is $\frac{P(A \cap A)}{P(B)}$.
+
+\section{Two-way Tables}
+
+\dfn{Two-way Table}{A table that records data that pertains to two different categories.}
+
+\ex{Two-way Table}{
+	\begin{tabular}{ |c|c|c| }
+		\hline
+		& Boys & Girls \\
+		\hline 
+		Prefer Football & 18 & 6 \\
+		\hline
+		Prefer Hockey & 10 & 16 \\
+		\hline
+	\end{tabular}
+}
+
+We can use two-way tables to find conditional probabilities. For instance,
+\[
+	P(\text{Prefers Football} | \text{Boy})=\frac{\frac{18 + 6}{18 + 6 + 10 + 16} \cdot \frac{18 + 10}{18 + 6 + 10 + 16}}{\frac{18 + 6}{18 + 6 + 10 + 16}}=\frac{\frac{24}{50} \cdot \frac{28}{50}}{\frac{24}{50}}=\frac{\frac{672}{2500}}{\frac{24}{50}}=\frac{14}{25}
+\]
+
+\end{document}
